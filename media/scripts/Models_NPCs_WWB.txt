@@ -1,0 +1,1976 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ UNIQUE NPCS ************************/
+
+	/******* ABRAHAM *******/
+		model Abraham
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Abraham,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ABRAHAM BATTLE *******/
+		model AbrahamB
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_AbrahamB,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ADDISON SOBIC *******/
+		model Sobic
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sobic,
+			scale = 0.1,
+		}
+
+		model Sobic2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sobic2,
+			scale = 0.1,
+		}
+
+		model Sobic3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sobic3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ADRIAN SANDOVAL *******/
+		model Adrian
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Adrian,
+			scale = 0.1,
+		}
+
+		model Adrian2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Adrian2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* AIDEN WARD *******/
+		model Aiden
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Aiden,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* AL KITANO *******/
+		model Kitano
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano,
+			scale = 0.1,
+		}
+
+		model Kitano2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano2,
+			scale = 0.1,
+		}
+
+		model Kitano3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano3,
+			scale = 0.1,
+		}
+
+		model Kitano4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano4,
+			scale = 0.1,
+		}
+
+		model Kitano5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano5,
+			scale = 0.1,
+		}
+
+		model Kitano6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano6,
+			scale = 0.1,
+		}
+
+		model Kitano7
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kitano7,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ALFRED TENNYSON *******/
+		model Alfred
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Alfred,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* AMANDA BALDOCK *******/
+		model Baldock
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Baldock,
+			scale = 0.1,
+		}
+
+		model Baldock2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Baldock2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* AMANDA CAHILL *******/
+		model Amanda
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Amanda,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* AMOS KAFFEE *******/
+		model Amos
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Amos,
+			scale = 0.1,
+		}
+
+		model Amos2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Amos2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* BEN *******/
+		model Ben
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ben,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* BLACKWELL *******/
+		model Blackwell
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Blackwell,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* CARL MILLER *******/
+		model Carl
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Carl,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* CASEY HART *******/
+		model Casey
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Casey,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* CASSANDRA *******/
+		model Cassandra
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Cassandra,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* CHARLES BLACKWELL *******/
+		model Charles
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Charles,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* CLU FRIEDLANDER *******/
+		model Clu
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Clu,
+			scale = 0.1,
+		}
+
+		model Clu2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Clu2,
+			scale = 0.1,
+		}
+
+		model Clu3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Clu3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* COLE *******/
+		model Cole
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Cole,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DAKOTA HILL *******/
+		model Dakota
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Dakota,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DANIELLE STENTON *******/
+		model Dani
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Dani,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DARREN MCKIDD *******/
+		model Darren
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Darren,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DEANNA *******/
+		model Deanna
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Deanna,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DEL *******/
+		model Del
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Del,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DEMI MCINTOSH *******/
+		model Demi
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Demi,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DENNIS COOPER *******/
+		model Cooper
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Cooper,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DIAMOND DOG *******/
+		model DiamondDog
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_DiamondDog,
+			scale = 0.1,
+		}
+
+		model DiamondDog2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_DiamondDog2,
+			scale = 0.1,
+		}
+
+		model DiamondDog3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_DiamondDog3,
+			scale = 0.1,
+		}
+
+		model DiamondDog4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_DiamondDog4,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DIYOR TURSUNOV *******/
+		model Diyor
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Diyor,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DON JONES *******/
+		model Don
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Don,
+			scale = 0.1,
+		}
+		
+/**********************************************************/
+
+	/******* DR. CHOP *******/
+		model Chop
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Chop,
+			scale = 0.1,
+		}
+
+		model Chop2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Chop2,
+			scale = 0.1,
+		}
+
+		model Chop3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Chop3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DUKE HELMER *******/
+		model Duke
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Duke,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* DWIGHT KILEAN *******/
+		model Kilean
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kilean,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* EDDIE ZIELINSKI *******/
+		model Eddie
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Eddie,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ELIZABETH BATTLE *******/
+		model Elizabeth
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Elizabeth,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* EMILY LAIDLAW *******/
+		model Emily
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Emily,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* EUGENE COLLINS *******/
+		model Eugene
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Eugene,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* EZEKIEL *******/
+		model Ezekiel
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ezekiel,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FRANCIS HOOD *******/
+		model Francis
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Francis,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FRANCO JOY *******/
+		model Franco
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Franco,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GABRIEL BARTON *******/
+		model Gabriel
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Gabriel,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GERALD BECHET *******/
+		model Gerald
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Gerald,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GREG FOSTER *******/
+		model Greg
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Greg,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GRIFF DUFFY *******/
+		model Griff
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Griff,
+			scale = 0.1,
+		}
+
+		model Griff2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Griff2,
+			scale = 0.1,
+		}
+
+		model Griff3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Griff3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* HANA TAKEUCHI *******/
+		model Hana
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Hana,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* HENRY CLANCY *******/
+		model Henry
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Henry,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JACK BEVIS *******/
+		model Bevis
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Bevis,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JARED VAUGERSON *******/
+		model Jared
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Jared,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JASON SELBY *******/
+		model Selby
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Selby,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JAVIER NASSIM ABDESSALAM *******/
+		model Javier
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Javier,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JOHN *******/
+		model John
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_John,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* JUNIOR KILEAN *******/
+		model Junior
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Junior,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* KELLY *******/
+		model Kelly
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kelly,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* LARUE MONROE *******/
+		model Larue
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Larue,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* LAWRENCE ORMAN *******/
+		model Orman
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Orman,
+			scale = 0.1,
+		}
+
+		model Orman2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Orman2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* LECLAIR MERCIER *******/
+		model Leclair
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Leclair,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* LOUIS GOMEZ *******/
+		model Gomez
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Gomez,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALCOLM BROOKS *******/
+		model Malcolm
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Malcolm,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALCOLM CARRADINE *******/
+		model Mal
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal,
+			scale = 0.1,
+		}
+
+		model Mal2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal2,
+			scale = 0.1,
+		}
+
+		model Mal3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal3,
+			scale = 0.1,
+		}
+
+		model Mal4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal4,
+			scale = 0.1,
+		}
+
+		model Mal5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal5,
+			scale = 0.1,
+		}
+
+		model Mal6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mal6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MANSUKH RAMACHANDRAN *******/
+		model Mansukh
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mansukh,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MARCUS BACZEK *******/
+		model Baczek
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Baczek,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MARKUS BRANDT *******/
+		model Brandt
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Brandt,
+			scale = 0.1,
+		}
+
+		model Brandt2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Brandt2,
+			scale = 0.1,
+		}
+
+		model Brandt3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Brandt3,
+			scale = 0.1,
+		}
+
+		model Brandt4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Brandt4,
+			scale = 0.1,
+		}
+
+		model Brandt5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Brandt5,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MARLENE *******/
+		model Marlene
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Marlene,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MARSHALL GRANT *******/
+		model Marshall
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Marshall,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MARVIN FINDLAY *******/
+		model Marvin
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Marvin,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MATIAS BRÜHL *******/
+		model Matias
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Matias,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MELANIE GREENFIELD *******/
+		model Melanie
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Melanie,
+			scale = 0.1,
+		}
+
+		model Melanie2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Melanie2,
+			scale = 0.1,
+		}
+
+		model Melanie3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Melanie3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MELISSA NELSON *******/
+		model Missy
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Missy,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MILLER WARDWELL *******/
+		model Miller
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Miller,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MIRANDA WARD *******/
+		model Ward
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ward,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MOCKINGBIRD *******/
+		model Mockingbird
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Mockingbird,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MOLLY *******/
+		model Molly
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Molly,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MORGAN BATTLE *******/
+		model Morgan
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Morgan,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* NATHAN COLEMAN *******/
+		model Nathan
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Nathan,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* RACHEL BEVIS *******/
+		model Rachel
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Rachel,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* RAYMOND MCCORMICK *******/
+		model Raymond
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Raymond,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* RENE ACKERMAN *******/
+		model Rene
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Rene,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* RHEA VARNADO *******/
+		model Rhea
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Rhea,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ROBERT *******/
+		model Robert
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Robert,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* SAM *******/
+		model Sam
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sam,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* SARAH HANNING *******/
+		model Sarah
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sarah,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* SHARON KRAVITZ *******/
+		model Sharon
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sharon,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* SID *******/
+		model Sid
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sid,
+			scale = 0.1,
+		}
+
+		model Sid2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sid2,
+			scale = 0.1,
+		}
+
+		model Sid3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sid3,
+			scale = 0.1,
+		}
+
+		model Sid4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Sid4,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* STANISLAV BEZRUKOV *******/
+		model Bezrukov
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Bezrukov,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* STELLA TAKEUCHI *******/
+		model Stella
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Stella,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* STEPHEN DRUMMER *******/
+		model Drummer
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Drummer,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* STEPHEN FLETCHER *******/
+		model Fletcher
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Fletcher,
+			scale = 0.1,
+		}
+
+		model Fletcher2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Fletcher2,
+			scale = 0.1,
+		}
+
+		model Fletcher3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Fletcher3,
+			scale = 0.1,
+		}
+
+		model Fletcher4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Fletcher4,
+			scale = 0.1,
+		}
+
+		model Fletcher5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Fletcher5,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* TARA GARLAND *******/
+		model Tara
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Tara,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* THE MAN IN RED *******/
+		model TMIR
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_TMIR,
+			scale = 0.1,
+		}
+
+		model TMIR2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_TMIR2,
+			scale = 0.1,
+		}
+		
+		model TMIR3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_TMIR3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* THOM HANSCOM *******/
+		model Thom
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Thom,
+			scale = 0.1,
+		}
+
+		model Thom2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Thom2,
+			scale = 0.1,
+		}
+
+		model Thom3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Thom3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* TSAVEYO *******/
+		model Tsaveyo
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Tsaveyo,
+			scale = 0.1,
+		}
+
+		model Tsaveyo2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Tsaveyo2,
+			scale = 0.1,
+		}
+
+		model Tsaveyo3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Tsaveyo3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* TRUMAN PARKER *******/
+		model Truman
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Truman,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* TUMAS *******/
+		model Tumas
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CrowMother,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* TYRELL MASON *******/
+		model Tyrell
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Tyrell,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* VIRGIL BATTLE *******/
+		model Virgil
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Virgil,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* WAR PIG *******/
+		model WarPig
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_WarPig,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* WENDY KANG *******/
+		model Wendy
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Wendy,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* WILL FISHER *******/
+		model Will
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Will,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* WILLIAM KOZUCH *******/
+		model Kozuch
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Kozuch,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* LESLIE WINTON *******/
+		model Winton
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Winton,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* ZIGGY *******/
+		model Ziggy
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ziggy,
+			scale = 0.1,
+		}
+
+		model Ziggy2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ziggy2,
+			scale = 0.1,
+		}
+
+		model Ziggy3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_Ziggy3,
+			scale = 0.1,
+		}
+
+/************************ GENERIC NPCS ************************/
+
+	/******* FEMALE BRIGHTON SOLDIER 1 *******/
+		model BrightonSoldierFemale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BrightonSoldierFemale1,
+			scale = 0.1,
+		}
+
+	/******* FEMALE BRIGHTON SOLDIER 2 *******/
+		model BrightonSoldierFemale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BrightonSoldierFemale2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALE BRIGHTON SOLDIER 1 *******/
+		model BrightonSoldierMale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BrightonSoldierMale1,
+			scale = 0.1,
+		}
+
+	/******* MALE BRIGHTON SOLDIER 2 *******/
+		model BrightonSoldierMale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BrightonSoldierMale2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FEMALE CROW 1 *******/
+		model CrowFemale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CrowFemale1,
+			scale = 0.1,
+		}
+
+	/******* FEMALE CROW 2 *******/
+		model CrowFemale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CrowFemale2,
+			scale = 0.1,
+		}
+
+
+/**********************************************************/
+
+	/******* MALE CROW 1 *******/
+		model CrowMale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CrowMale1,
+			scale = 0.1,
+		}
+
+	/******* MALE CROW 2 *******/
+		model CrowMale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CrowMale2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FEMALE CULTIST 1 *******/
+		model CultistFemale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistFemale1,
+			scale = 0.1,
+		}
+
+	/******* FEMALE CULTIST 2 *******/
+		model CultistFemale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistFemale2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALE CULTIST 1 *******/
+		model CultistMale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistMale1,
+			scale = 0.1,
+		}
+
+	/******* MALE CULTIST 2 *******/
+		model CultistMale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistMale2,
+			scale = 0.1,
+		}
+
+	/******* MALE CULTIST 3 *******/
+		model CultistMale3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistMale3,
+			scale = 0.1,
+		}
+
+	/******* MALE CULTIST 4 *******/
+		model CultistMale4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_CultistMale4,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GROUP SIX OPERATOR 1 *******/
+		model G6Operator1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_G6Operator1,
+			scale = 0.1,
+		}
+
+	/******* GROUP SIX OPERATOR 2 *******/
+		model G6Operator2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_G6Operator2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GROUP SIX SECURITY OFFICER 1 *******/
+		model G6SecurityOfficer1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_G6SecurityOfficer1,
+			scale = 0.1,
+		}
+
+	/******* GROUP SIX SECURITY OFFICER 2 *******/
+		model G6SecurityOfficer2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_G6SecurityOfficer2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FEMALE MILITIA MEMBER 1 *******/
+		model MilitiaFemale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_MilitiaFemale1,
+			scale = 0.1,
+		}
+
+	/******* FEMALE MILITIA MEMBER 2 *******/
+		model MilitiaFemale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_MilitiaFemale2,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALE MILITIA MEMBER 1 *******/
+		model MilitiaMale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_MilitiaMale1,
+			scale = 0.1,
+		}
+
+	/******* MALE MILITIA MEMBER 2 *******/
+		model MilitiaMale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_MilitiaMale2,
+			scale = 0.1,
+		}
+
+	/******* MALE MILITIA MEMBER 3 *******/
+		model MilitiaMale3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_MilitiaMale3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* FEMALE MILLER MOOK 1 *******/
+		model BanditFemale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditFemale1,
+			scale = 0.1,
+		}
+
+	/******* FEMALE MILLER MOOK 2 *******/
+		model BanditFemale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditFemale2,
+			scale = 0.13,
+		}
+
+	/******* FEMALE MILLER MOOK 3 *******/
+		model BanditFemale3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditFemale3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* MALE MILLER MOOK 1 *******/
+		model BanditMale1
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditMale1,
+			scale = 0.1,
+		}
+
+	/******* MALE MILLER MOOK 2 *******/
+		model BanditMale2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditMale2,
+			scale = 0.1,
+		}
+
+	/******* MALE MILLER MOOK 3 *******/
+		model BanditMale3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_BanditMale3,
+			scale = 0.12,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER A *******/
+		model RangerGenericFemaleA
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleA2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA2,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleA3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA3,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleA4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA4,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleA5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA5,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleA6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleA6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER B *******/
+		model RangerGenericFemaleB
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleB2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB2,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleB3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB3,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleB4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB4,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleB5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB5,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleB6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleB6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER C *******/
+		model RangerGenericFemaleC
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleC2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC2,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleC3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC3,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleC4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC4,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleC5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC5,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleC6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleC6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER D *******/
+		model RangerGenericFemaleD
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleD2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD2,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleD3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD3,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleD4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD4,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleD5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD5,
+			scale = 0.1,
+		}
+
+		model RangerGenericFemaleD6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericFemaleD6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER A *******/
+		model RangerGenericMaleA
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleA,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleA2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleA2,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleA3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleA3,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER B *******/
+		model RangerGenericMaleB
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleB2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB2,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleB3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB3,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleB4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB4,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleB5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB5,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleB6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleB6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER C *******/
+		model RangerGenericMaleC
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleC2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC2,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleC3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC3,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleC4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC4,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleC5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC5,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleC6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleC6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER D *******/
+		model RangerGenericMaleD
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleD2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD2,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleD3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD3,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleD4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD4,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleD5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD5,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleD6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleD6,
+			scale = 0.1,
+		}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER E *******/
+		model RangerGenericMaleE
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE2
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE2,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE3
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE3,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE4
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE4,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE5
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE5,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE6
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE6,
+			scale = 0.1,
+		}
+
+		model RangerGenericMaleE7
+		{
+			mesh = WorldItems/NPCProp,
+			texture = WorldItems/NPC_RangerGenericMaleE7,
+			scale = 0.1,
+		}
+}

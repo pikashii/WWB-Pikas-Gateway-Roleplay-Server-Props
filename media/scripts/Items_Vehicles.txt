@@ -1,0 +1,75 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ VEHICLE NAMES ************************/
+
+	/* Lockheed C-130 Hercules */
+	/* Humvee (East & West Variants) */
+	/* Republic of Texas Train */
+
+/************************* VEHICLE SPRITES ************************/
+
+	/******* LOCKHEED C-130 HERCULES *******/
+		item C130
+			{
+				Type				=	Normal,
+				DisplayName			=	Lockheed C-130 Hercules,
+				Icon				=	VehicleC130,
+				Weight				=	20.0,
+			}
+
+/**********************************************************/
+
+	/******* HUMVEE *******/
+		item HumveeE
+			{
+				Type				=	Normal,
+				DisplayName			=	Humvee,
+				Icon				=	VehicleHumveeE,
+				Weight				=	20.0,
+			}
+
+		item HumveeW
+			{
+				Type				=	Normal,
+				DisplayName			=	Humvee,
+				Icon				=	VehicleHumveeW,
+				Weight				=	20.0,
+			}
+
+/**********************************************************/
+
+	/******* REPUBLIC OF TEXAS TRAIN *******/
+		item TrainROT1
+			{
+				Type				=	Normal,
+				DisplayName			=	Republic of Texas Train,
+				Icon				=	VehicleTrainROT1,
+				Weight				=	20.0,
+			}
+
+		item TrainROT2
+			{
+				Type				=	Normal,
+				DisplayName			=	Republic of Texas Train,
+				Icon				=	VehicleTrainROT2,
+				Weight				=	20.0,
+			}
+
+/**********************************************************/
+
+	/******* THE CODEX JUST BECAUSE *******/
+		item Codex
+			{
+				Type				=	Normal,
+				DisplayName			=	The Codex,
+				Icon				=	SpecialCodex,
+				Weight				=	100.0,
+			}
+}

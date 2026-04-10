@@ -1,0 +1,3247 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ CORPSE LIST ************************/
+
+	/* UNIQUE NPCS */
+		/* Abraham */
+		/* Addison Sobic */
+		/* Adrian Sandoval */
+		/* Aiden Ward */
+		/* Al Kitano */
+		/* Alfred Tennyson */
+		/* Amanda Cahill */
+		/* Amos Kaffee */
+		/* Ben */
+		/* Blackwell */
+		/* Carl Miller */
+		/* Casey Hart */
+		/* Cassandra */
+		/* Charles Blackwell */
+		/* Clu Friedlander */
+		/* Cole */
+		/* Dakota Hill */
+		/* Danielle Stenton */
+		/* Darren McKidd */
+		/* Deanna */
+		/* Del */
+		/* Demi McIntosh */
+		/* Dennis Cooper */
+		/* Diamond Dog */
+		/* Diyor Tursunov */
+		/* Don Jones */
+		/* Dwight Kilean */
+		/* Duke Helmer */
+		/* Eddie */
+		/* Emily Laidlaw */
+		/* Eugene Collins */
+		/* Ezekiel */
+		/* Francis Hood */
+		/* Franco Joy */
+		/* Gabriel Barton */
+		/* Gerald Bechet */
+		/* Greg Foster */
+		/* Griff Duffy */
+		/* Hana Takeuchi */
+		/* Henry Clancy */
+		/* Jack Bevis */
+		/* Jared Vaugerson */
+		/* Jason Selby */
+		/* Javier Nassim Abdessalam */
+		/* Junior Kilean */
+		/* Kelly */
+		/* Larue Monroe */
+		/* Lawrence Orman */
+		/* Leclair Mercier */
+		/* Louis Gomez */
+		/* Malcolm Brooks */
+		/* Malcolm Carradine */
+		/* Mansukh Ramachandran */
+		/* Marcus Baczek */
+		/* Marlene */
+		/* Marshall Grant */
+		/* Marvin Findlay */
+		/* Matias Brühl */
+		/* Melanie Greenfield */
+		/* Melissa Nelson */
+		/* Miller Wardwell */
+		/* Miranda Ward */
+		/* Mockingbird */
+		/* Molly */
+		/* Morgan Battle */
+		/* Nathan Coleman */
+		/* Rachel Bevis */
+		/* Raymond McCormick */
+		/* Rene Ackerman */
+		/* Rhea Varnado */
+		/* Robert */
+		/* Sam */
+		/* Sarah Hanning */
+		/* Sharon Kravitz */
+		/* Stanislav Bezrukov */
+		/* Stella Takeuchi */
+		/* Stephen Drummer */
+		/* Stephen Fletcher */
+		/* Tara Garland */
+		/* The Man In Red */
+		/* Thom Hanscom */
+		/* Truman Parker */
+		/* Tümas */
+		/* Tyrell Mason */
+		/* War Pig */
+		/* Wendy Kang */
+		/* Will Fisher */
+		/* William Kozuch */
+		/* Leslie Winton */
+		/* Ziggy */
+		
+	/* GENERIC NPCS */
+		/* Brighton Soldiers */
+		/* Crows */
+		/* Cultists */
+		/* Group Six Security Officers */
+		/* Group Six Operators */
+		/* Militia Members */
+		/* Miller Mooks */
+		/* Coalition Rangers */
+
+/************************ UNIQUE NPCS ************************/
+
+	/******* ABRAHAM *******/
+		item AbrahamCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Abraham's Corpse,
+				Icon				=	NPCCorpseAbraham,
+				WorldStaticModel	=	CorpseAbraham,
+			}
+
+		recipe Kill Abraham
+			{
+				keep AdminKey,
+				Abraham,
+				Result:AbrahamCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ADDISON SOBIC *******/
+		item SobicCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Addison Sobic's Corpse,
+				Icon				=	NPCCorpseSobic,
+				WorldStaticModel	=	CorpseSobic,
+			}
+
+		recipe Kill Addison
+			{
+				keep AdminKey,
+				Sobic/Sobic2/Sobic3,
+				Result:SobicCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ADRIAN SANDOVAL *******/
+		item AdrianCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Adrian Sandoval's Corpse,
+				Icon				=	NPCCorpseAdrian,
+				WorldStaticModel	=	CorpseAdrian,
+			}
+
+		recipe Kill Adrian
+			{
+				keep AdminKey,
+				Adrian/Adrian2,
+				Result:AdrianCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AIDEN WARD *******/
+		item AidenCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Aiden Ward's Corpse,
+				Icon				=	NPCCorpseAiden,
+				WorldStaticModel	=	CorpseAiden,
+			}
+
+		recipe Kill Aiden
+			{
+				keep AdminKey,
+				Aiden,
+				Result:AidenCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AL KITANO *******/
+		item KitanoCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Al Kitano's Corpse,
+				Icon				=	NPCCorpseKitano,
+				WorldStaticModel	=	CorpseKitano,
+			}
+
+		item KitanoCorpse2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Al Kitano's Corpse,
+				Icon				=	NPCCorpseKitano2,
+				WorldStaticModel	=	CorpseKitano2,
+			}
+
+		recipe Kill Al
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano3/Kitano4/Kitano5,
+				Result:KitanoCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Kill Al
+			{
+				keep AdminKey,
+				Kitano6/Kitano7,
+				Result:KitanoCorpse2,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ALFRED TENNYSON *******/
+		item AlfredCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Alfred Tennyson's Corpse,
+				Icon				=	NPCCorpseAlfred,
+				WorldStaticModel	=	CorpseAlfred,
+			}
+
+		recipe Kill Alfred
+			{
+				keep AdminKey,
+				Alfred,
+				Result:AlfredCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AMANDA CAHILL *******/
+		item AmandaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Amanda Cahill's Corpse,
+				Icon				=	NPCCorpseAmanda,
+				WorldStaticModel	=	CorpseAmanda,
+			}
+
+		recipe Kill Amanda
+			{
+				keep AdminKey,
+				Amanda,
+				Result:AmandaCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AMOS KAFFEE *******/
+		item AmosCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Amos Kaffee's Corpse,
+				Icon				=	NPCCorpseAmos,
+				WorldStaticModel	=	CorpseAmos,
+			}
+
+		recipe Kill Amos
+			{
+				keep AdminKey,
+				Amos/Amos2,
+				Result:AmosCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* BEN *******/
+		item BenCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Ben's Corpse,
+				Icon				=	NPCCorpseBen,
+				WorldStaticModel	=	CorpseBen,
+			}
+
+		recipe Kill Ben
+			{
+				keep AdminKey,
+				Ben,
+				Result:BenCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* BLACKWELL *******/
+		item BlackwellCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Blackwell's Corpse,
+				Icon				=	NPCCorpseBlackwell,
+				WorldStaticModel	=	CorpseBlackwell,
+			}
+
+		recipe Kill Blackwell
+			{
+				keep AdminKey,
+				Blackwell,
+				Result:BlackwellCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* CARL MILLER *******/
+		item CarlCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Carl Miller's Corpse,
+				Icon				=	NPCCorpseCarl,
+				WorldStaticModel	=	CorpseCarl,
+			}
+
+		recipe Kill Carl
+			{
+				keep AdminKey,
+				Carl,
+				Result:CarlCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* CASEY HART *******/
+		item CaseyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Casey Hart's Corpse,
+				Icon				=	NPCCorpseCasey,
+				WorldStaticModel	=	CorpseCasey,
+			}
+
+		recipe Kill Casey
+			{
+				keep AdminKey,
+				Casey,
+				Result:CaseyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* CASSANDRA *******/
+		item CassandraCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Cassandra's Corpse,
+				Icon				=	NPCCorpseCassandra,
+				WorldStaticModel	=	CorpseCassandra,
+			}
+
+		recipe Kill Cassandra
+			{
+				keep AdminKey,
+				Cassandra,
+				Result:CassandraCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* CHARLES BLACKWELL *******/
+		item CharlesCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Charles Blackwell's Corpse,
+				Icon				=	NPCCorpseCharles,
+				WorldStaticModel	=	CorpseCharles,
+			}
+
+		recipe Kill Charles
+			{
+				keep AdminKey,
+				Charles,
+				Result:CharlesCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* CLU FRIEDLANDER *******/
+		item CluCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Clu Friedlander's Corpse,
+				Icon				=	NPCCorpseClu,
+				WorldStaticModel	=	CorpseClu,
+			}
+
+		recipe Kill Clu
+			{
+				keep AdminKey,
+				Clu/Clu2/Clu3,
+				Result:CluCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* COLE *******/
+		item ColeCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Cole's Corpse,
+				Icon				=	NPCCorpseCole,
+				WorldStaticModel	=	CorpseCole,
+			}
+
+		recipe Kill Cole
+			{
+				keep AdminKey,
+				Cole,
+				Result:ColeCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DAKOTA HILL *******/
+		item DakotaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Dakota Hill's Corpse,
+				Icon				=	NPCCorpseDakota,
+				WorldStaticModel	=	CorpseDakota,
+			}
+
+/**********************************************************/
+
+	/******* DANIELLE STENTON *******/
+		item DaniCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Danielle Stenton's Corpse,
+				Icon				=	NPCCorpseDani,
+				WorldStaticModel	=	CorpseDani,
+			}
+
+		recipe Kill Danielle
+			{
+				keep AdminKey,
+				Dani,
+				Result:DaniCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DARREN MCKIDD *******/
+		item DarrenCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Darren McKidd's Corpse,
+				Icon				=	NPCCorpseDarren,
+				WorldStaticModel	=	CorpseDarren,
+			}
+
+		recipe Kill Darren
+			{
+				keep AdminKey,
+				Darren,
+				Result:DarrenCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DEANNA *******/
+		item DeannaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Deanna's Corpse,
+				Icon				=	NPCCorpseDeanna,
+				WorldStaticModel	=	CorpseDeanna,
+			}
+
+		recipe Kill Deanna
+			{
+				keep AdminKey,
+				Deanna,
+				Result:DeannaCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DEL *******/
+		item DelCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Del's Corpse,
+				Icon				=	NPCCorpseDel,
+				WorldStaticModel	=	CorpseDel,
+			}
+
+		recipe Kill Del
+			{
+				keep AdminKey,
+				Del,
+				Result:DelCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+/**********************************************************/
+
+	/******* DEMI MCINTOSH *******/
+		item DemiCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Demi McIntosh's Corpse,
+				Icon				=	NPCCorpseDemi,
+				WorldStaticModel	=	CorpseDemi,
+			}
+
+		recipe Kill Demi
+			{
+				keep AdminKey,
+				Demi,
+				Result:DemiCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DENNIS COOPER *******/
+		item CooperCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Dennis Cooper's Corpse,
+				Icon				=	NPCCorpseCooper,
+				WorldStaticModel	=	CorpseCooper,
+			}
+
+		recipe Kill Dennis
+			{
+				keep AdminKey,
+				Cooper,
+				Result:CooperCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DIAMOND DOG *******/
+		item DiamondDogCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Diamond Dog's Corpse,
+				Icon				=	NPCCorpseDiamondDog,
+				WorldStaticModel	=	CorpseDiamondDog,
+			}
+
+		recipe Kill Diamond Dog
+			{
+				keep AdminKey,
+				DiamondDog/DiamondDog2/DiamondDog3/DiamondDog4,
+				Result:DiamondDogCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DIYOR TURSUNOV *******/
+		item DiyorCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Diyor Tursunov's Corpse,
+				Icon				=	NPCCorpseDiyor,
+				WorldStaticModel	=	CorpseDiyor,
+			}
+
+		recipe Kill Diyor
+			{
+				keep AdminKey,
+				Diyor,
+				Result:DiyorCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DON JONES *******/
+		item DonCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory		 =   Corpse, 
+				DisplayName			=	Don Jones' Corpse,
+				Icon				=	NPCCorpseDon,
+				WorldStaticModel	=	CorpseDon,
+			}
+
+		recipe Kill Don
+			{
+				keep AdminKey,
+				Don,
+				Result:DonCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DUKE HELMER *******/
+		item DukeCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Duke Helmer's Corpse,
+				Icon				=	NPCCorpseDuke,
+				WorldStaticModel	=	CorpseDuke,
+			}
+
+		recipe Kill Duke
+			{
+				keep AdminKey,
+				Duke,
+				Result:DukeCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DWIGHT KILEAN *******/
+		item KileanCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Dwight Kilean's Corpse,
+				Icon				=	NPCCorpseKilean,
+				WorldStaticModel	=	CorpseKilean,
+			}
+
+		recipe Kill Dwight
+			{
+				keep AdminKey,
+				Kilean,
+				Result:KileanCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+
+/**********************************************************/
+
+	/******* EDDIE ZIELINSKI *******/
+		item EddieCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Eddie's Corpse,
+				Icon				=	NPCCorpseEddie,
+				WorldStaticModel	=	CorpseEddie,
+			}
+
+		recipe Kill Eddie
+			{
+				keep AdminKey,
+				Eddie,
+				Result:EddieCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* EMILY LAIDLAW *******/
+		item EmilyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Emily Laidlaw's Corpse,
+				Icon				=	NPCCorpseEmily,
+				WorldStaticModel	=	CorpseEmily,
+			}
+
+		recipe Kill Emily
+			{
+				keep AdminKey,
+				Emily,
+				Result:EmilyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* EUGENE COLLINS *******/
+		item EugeneCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Eugene Collins' Corpse,
+				Icon				=	NPCCorpseEugene,
+				WorldStaticModel	=	CorpseEugene,
+			}
+
+		recipe Kill Eugene
+			{
+				keep AdminKey,
+				Eugene,
+				Result:EugeneCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* EZEKIEL *******/
+		item EzekielCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=   Corpse, 
+				DisplayName			=	Ezekiel's Corpse,
+				Icon				=	NPCCorpseEzekiel,
+				WorldStaticModel	=	CorpseEzekiel,
+			}
+
+		recipe Kill Ezekiel
+			{
+				keep AdminKey,
+				Ezekiel,
+				Result:EzekielCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FRANCIS HOOD *******/
+		item FrancisCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Francis Hood's Corpse,
+				Icon				=	NPCCorpseFrancis,
+				WorldStaticModel	=	CorpseFrancis,
+			}
+
+		recipe Kill Francis
+			{
+				keep AdminKey,
+				Francis,
+				Result:FrancisCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FRANCO JOY *******/
+		item FrancoCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Franco Joy's Corpse,
+				Icon				=	NPCCorpseFranco,
+				WorldStaticModel	=	CorpseFranco,
+			}
+
+		recipe Kill Franco
+			{
+				keep AdminKey,
+				Franco,
+				Result:FrancoCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GABRIEL BARTON *******/
+		item GabrielCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Gabriel Barton's Corpse,
+				Icon				=	NPCCorpseGabriel,
+				WorldStaticModel	=	CorpseGabriel,
+			}
+
+		recipe Kill Gabriel
+			{
+				keep AdminKey,
+				Gabriel,
+				Result:GabrielCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GERALD BECHET *******/
+		item GeraldCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Gerald Bechet's Corpse,
+				Icon				=	NPCCorpseGerald,
+				WorldStaticModel	=	CorpseGerald,
+			}
+
+		recipe Kill Gerald
+			{
+				keep AdminKey,
+				Gerald,
+				Result:GeraldCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GREG FOSTER *******/
+		item GregCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Greg Foster's Corpse,
+				Icon				=	NPCCorpseGreg,
+				WorldStaticModel	=	CorpseGreg,
+			}
+
+		recipe Kill Greg
+			{
+				keep AdminKey,
+				Greg,
+				Result:GregCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GRIFF DUFFY *******/
+		item GriffCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Griff Duffy's Corpse,
+				Icon				=	NPCCorpseGriff,
+				WorldStaticModel	=	CorpseGriff,
+			}
+
+		recipe Kill Griff
+			{
+				keep AdminKey,
+				Griff/Griff2.Griff3,
+				Result:GriffCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* HANA TAKEUCHI *******/
+		item HanaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Hana Takeuchi's Corpse,
+				Icon				=	NPCCorpseHana,
+				WorldStaticModel	=	CorpseHana,
+			}
+
+		recipe Kill Hana
+			{
+				keep AdminKey,
+				Hana,
+				Result:HanaCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* HENRY CLANCY *******/
+		item HenryCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Henry Clancy's Corpse,
+				Icon				=	NPCCorpseHenry,
+				WorldStaticModel	=	CorpseHenry,
+			}
+
+		recipe Kill Henry
+			{
+				keep AdminKey,
+				Henry,
+				Result:HenryCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* JACK BEVIS *******/
+		item BevisCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Jack Bevis' Corpse,
+				Icon				=	NPCCorpseBevis,
+				WorldStaticModel	=	CorpseBevis,
+			}
+
+		recipe Kill Jack
+			{
+				keep AdminKey,
+				Bevis,
+				Result:BevisCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* JARED VAUGERSON *******/
+		item JaredCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Jared Vaugerson's Corpse,
+				Icon				=	NPCCorpseJared,
+				WorldStaticModel	=	CorpseJared,
+			}
+
+		recipe Kill Jared
+			{
+				keep AdminKey,
+				Jared,
+				Result:JaredCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* JASON SELBY *******/
+		item SelbyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Jason Selby's Corpse,
+				Icon				=	NPCCorpseSelby,
+				WorldStaticModel	=	CorpseSelby,
+			}
+
+		recipe Kill Jason
+			{
+				keep AdminKey,
+				Selby,
+				Result:SelbyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* JAVIER NASSIM ABDESSALAM *******/
+		item JavierCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Javier Nassim Abdessalam's Corpse,
+				Icon				=	NPCCorpseJavier,
+				WorldStaticModel	=	CorpseJavier,
+			}
+
+		recipe Kill Javier
+			{
+				keep AdminKey,
+				Javier,
+				Result:JavierCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* JUNIOR KILEAN *******/
+		item JuniorCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Junior Kilean's Corpse,
+				Icon				=	NPCCorpseJunior,
+				WorldStaticModel	=	CorpseJunior,
+			}
+
+		recipe Kill Junior
+			{
+				keep AdminKey,
+				Junior,
+				Result:JuniorCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* KELLY *******/
+		item KellyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Kelly's Corpse,
+				Icon				=	NPCCorpseKelly,
+				WorldStaticModel	=	CorpseKelly,
+			}
+
+		recipe Kill Kelly
+			{
+				keep AdminKey,
+				Kelly,
+				Result:KellyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LARUE MONROE *******/
+		item LarueCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=   Corpse, 
+				DisplayName			=	Larue Monroe's Corpse,
+				Icon				=	NPCCorpseLarue,
+				WorldStaticModel	=	CorpseLarue,
+			}
+
+		recipe Kill Larue
+			{
+				keep AdminKey,
+				Larue,
+				Result:LarueCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LAWRENCE ORMAN *******/
+		item OrmanCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Lawrence Orman's Corpse,
+				Icon				=	NPCCorpseOrman,
+				WorldStaticModel	=	CorpseOrman,
+			}
+
+		recipe Kill Lawrence
+			{
+				keep AdminKey,
+				Orman/Orman2,
+				Result:OrmanCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LECLAIR MERCIER *******/
+		item LeclairCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Leclair Mercier's Corpse,
+				Icon				=	NPCCorpseLeclair,
+				WorldStaticModel	=	CorpseLeclair,
+			}
+
+		recipe Kill Leclair
+			{
+				keep AdminKey,
+				Leclair,
+				Result:LeclairCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LOUIS GOMEZ *******/
+		item GomezCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Louis Gomez's Corpse,
+				Icon				=	NPCCorpseGomez,
+				WorldStaticModel	=	CorpseGomez,
+			}
+
+		recipe Kill Louis
+			{
+				keep AdminKey,
+				Gomez,
+				Result:GomezCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALCOLM BROOKS *******/
+		item MalcolmCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Malcolm Brooks' Corpse,
+				Icon				=	NPCCorpseMalcolm,
+				WorldStaticModel	=	CorpseMalcolm,
+			}
+
+		recipe Kill Malcolm
+			{
+				keep AdminKey,
+				Malcolm,
+				Result:MalcolmCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALCOLM CARRADINE *******/
+		item MalCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Malcolm Carradine's Corpse,
+				Icon				=	NPCCorpseMal,
+				WorldStaticModel	=	CorpseMal,
+			}
+
+		item MalCorpse2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Malcolm Carradine's Corpse,
+				Icon				=	NPCCorpseMal2,
+				WorldStaticModel	=	CorpseMal2,
+			}
+
+		recipe Kill Malcolm
+			{
+				keep AdminKey,
+				Mal/Mal2/Mal3/Mal4,
+				Result:MalCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Kill Malcolm
+			{
+				keep AdminKey,
+				Mal5/Mal6,
+				Result:MalCorpse2,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MANSUKH RAMACHANDRAN *******/
+		item MansukhCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Mansukh Ramachandran's Corpse,
+				Icon				=	NPCCorpseMansukh,
+				WorldStaticModel	=	CorpseMansukh,
+			}
+
+		recipe Kill Mansukh
+			{
+				keep AdminKey,
+				Mansukh,
+				Result:MansukhCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MARCUS BACZEK *******/
+		item BaczekCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Marcus Baczek's Corpse,
+				Icon				=	NPCCorpseBaczek,
+				WorldStaticModel	=	CorpseBaczek,
+			}
+
+		recipe Kill Marcus
+			{
+				keep AdminKey,
+				Baczek,
+				Result:BaczekCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MARLENE *******/
+		item MarleneCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Marlene's Corpse,
+				Icon				=	NPCCorpseMarlene,
+				WorldStaticModel	=	CorpseMarlene,
+			}
+
+		recipe Kill Marlene
+			{
+				keep AdminKey,
+				Marlene,
+				Result:MarleneCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MARSHALL GRANT *******/
+		item MarshallCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Marshall Grant's Corpse,
+				Icon				=	NPCCorpseMarshall,
+				WorldStaticModel	=	CorpseMarshall,
+			}
+
+		recipe Kill Marshall
+			{
+				keep AdminKey,
+				Marshall,
+				Result:MarshallCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MARVIN FINDLAY *******/
+		item MarvinCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Marvin Findlay's Corpse,
+				Icon				=	NPCCorpseMarvin,
+				WorldStaticModel	=	CorpseMarvin,
+			}
+
+		recipe Kill Marvin
+			{
+				keep AdminKey,
+				Marvin,
+				Result:MarvinCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MATIAS BRÜHL *******/
+		item MatiasCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Matias Brühl's Corpse,
+				Icon				=	NPCCorpseMatias,
+				WorldStaticModel	=	CorpseMatias,
+			}
+
+		recipe Kill Matias
+			{
+				keep AdminKey,
+				Matias,
+				Result:MatiasCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MELANIE GREENFIELD *******/
+		item MelanieCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Melanie Greenfield's Corpse,
+				Icon				=	NPCCorpseMelanie,
+				WorldStaticModel	=	CorpseMelanie,
+			}
+
+		recipe Kill Melanie
+			{
+				keep AdminKey,
+				Melanie/Melanie2/Melanie3,
+				Result:MelanieCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MELISSA NELSON *******/
+		item MissyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Melissa Nelson's Corpse,
+				Icon				=	NPCCorpseMissy,
+				WorldStaticModel	=	CorpseMissy,
+			}
+
+		recipe Kill Missy
+			{
+				keep AdminKey,
+				Missy,
+				Result:MissyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MILLER WARDWELL *******/
+		item MillerCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Miller Wardwell's Corpse,
+				Icon				=	NPCCorpseMiller,
+				WorldStaticModel	=	CorpseMiller,
+			}
+
+		recipe Kill Miller
+			{
+				keep AdminKey,
+				Miller,
+				Result:MillerCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MIRANDA WARD *******/
+		item WardCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Miranda Ward's Corpse,
+				Icon				=	NPCCorpseWard,
+				WorldStaticModel	=	CorpseWard,
+			}
+
+		recipe Kill Miranda
+			{
+				keep AdminKey,
+				Ward,
+				Result:WardCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MOCKINGBIRD *******/
+		item MockingbirdCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Mockingbird's Corpse,
+				Icon				=	NPCCorpseMockingbird,
+				WorldStaticModel	=	CorpseMockingbird,
+			}
+
+		recipe Kill Mockingbird
+			{
+				keep AdminKey,
+				Mockingbird,
+				Result:MockingbirdCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MOLLY *******/
+		item MollyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Molly's Corpse,
+				Icon				=	NPCCorpseMolly,
+				WorldStaticModel	=	CorpseMolly,
+			}
+
+		recipe Kill Molly
+			{
+				keep AdminKey,
+				Molly,
+				Result:MollyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* NATHAN COLEMAN *******/
+		item NathanCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Nathan Coleman's Corpse,
+				Icon				=	NPCCorpseNathan,
+				WorldStaticModel	=	CorpseNathan,
+			}
+
+		recipe Kill Nathan
+			{
+				keep AdminKey,
+				Nathan,
+				Result:NathanCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* RACHEL BEVIS *******/
+		item RachelCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Rachel Bevis' Corpse,
+				Icon				=	NPCCorpseRachel,
+				WorldStaticModel	=	CorpseRachel,
+			}
+
+		recipe Kill Rachel
+			{
+				keep AdminKey,
+				Rachel,
+				Result:RachelCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* RAYMOND MCCORMICK *******/
+		item RaymondCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Raymond McCormick's Corpse,
+				Icon				=	NPCCorpseRaymond,
+				WorldStaticModel	=	CorpseRaymond,
+			}
+
+		recipe Kill Raymond
+			{
+				keep AdminKey,
+				Raymond,
+				Result:RaymondCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* RENE ACKERMAN *******/
+		item ReneCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Rene Ackerman's Corpse,
+				Icon				=	NPCCorpseRene,
+				WorldStaticModel	=	CorpseRene,
+			}
+
+		recipe Kill Rene
+			{
+				keep AdminKey,
+				Rene,
+				Result:ReneCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* RHEA VARNADO *******/
+		item RheaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Rhea Varnado's Corpse,
+				Icon				=	NPCCorpseRhea,
+				WorldStaticModel	=	CorpseRhea,
+			}
+
+		recipe Kill Rhea
+			{
+				keep AdminKey,
+				Rhea,
+				Result:RheaCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ROBERT *******/
+		item RobertCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Robert's Corpse,
+				Icon				=	NPCCorpseRobert,
+				WorldStaticModel	=	CorpseRobert,
+			}
+
+		recipe Kill Robert
+			{
+				keep AdminKey,
+				Robert,
+				Result:RobertCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* SAM *******/
+		item SamCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Sam's Corpse,
+				Icon				=	NPCCorpseSam,
+				WorldStaticModel	=	CorpseSam,
+			}
+
+		recipe Kill Sam
+			{
+				keep AdminKey,
+				Sam,
+				Result:SamCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+/**********************************************************/
+
+	/******* SARAH HANNING *******/
+		item SarahCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=   Corpse, 
+				DisplayName			=	Sarah Hanning's Corpse,
+				Icon				=	NPCCorpseSarah,
+				WorldStaticModel	=	CorpseSarah,
+			}
+
+		recipe Kill Sarah
+			{
+				keep AdminKey,
+				Sarah,
+				Result:SarahCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* SHARON KRAVITZ *******/
+		item SharonCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Sharon Kravitz's Corpse,
+				Icon				=	NPCCorpseSharon,
+				WorldStaticModel	=	CorpseSharon,
+			}
+
+		recipe Kill Sharon
+			{
+				keep AdminKey,
+				Sharon,
+				Result:SharonCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* STANISLAV BEZRUKOV *******/
+		item BezrukovCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Stanislav Bezrukov's Corpse,
+				Icon				=	NPCCorpseBezrukov,
+				WorldStaticModel	=	CorpseBezrukov,
+			}
+
+/**********************************************************/
+
+	/******* STELLA TAKEUCHI *******/
+		item StellaCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Stella Takeuchi's Corpse,
+				Icon				=	NPCCorpseStella,
+				WorldStaticModel	=	CorpseStella,
+			}
+
+		recipe Kill Stella
+			{
+				keep AdminKey,
+				Stella,
+				Result:StellaCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* STEPHEN DRUMMER *******/
+		item DrummerCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Stephen Drummer's Corpse,
+				Icon				=	NPCCorpseDrummer,
+				WorldStaticModel	=	CorpseDrummer,
+			}
+
+		recipe Kill Stephen
+			{
+				keep AdminKey,
+				Drummer,
+				Result:DrummerCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* STEPHEN FLETCHER *******/
+		item FletcherCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Stephen Fletcher's Corpse,
+				Icon				=	NPCCorpseFletcher,
+				WorldStaticModel	=	CorpseFletcher,
+			}
+
+		recipe Kill Stephen
+			{
+				keep AdminKey,
+				Fletcher/Fletcher2/Fletcher3/Fletcher4/Fletcher5,
+				Result:FletcherCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TARA GARLAND *******/
+		item TaraCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Tara Garland's Corpse,
+				Icon				=	NPCCorpseTara,
+				WorldStaticModel	=	CorpseTara,
+			}
+
+		recipe Kill Tara
+			{
+				keep AdminKey,
+				Tara,
+				Result:TaraCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* THE MAN IN RED *******/
+		item TMIRCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	The Man In Red's Corpse,
+				Icon				=	NPCCorpseTMIR,
+				WorldStaticModel	=	CorpseTMIR,
+			}
+
+		recipe Kill The Man In Red
+			{
+				keep AdminKey,
+				TMIR3,
+				Result:TMIRCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Swap to Next Form
+			{
+				keep AdminKey,
+				TMIR,
+				Result:TMIR2,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Swap to Next Form
+			{
+				keep AdminKey,
+				TMIR2,
+				Result:TMIR3,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* THOM HANSCOM *******/
+		item ThomCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Thom Hanscom's Corpse,
+				Icon				=	NPCCorpseThom,
+				WorldStaticModel	=	CorpseThom,
+			}
+
+		recipe Kill Thom
+			{
+				keep AdminKey,
+				Thom/Thom2/Thom3,
+				Result:ThomCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TRUMAN PARKER *******/
+		item TrumanCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Truman Parker's Corpse,
+				Icon				=	NPCCorpseTruman,
+				WorldStaticModel	=	CorpseTruman,
+			}
+
+		recipe Kill Truman
+			{
+				keep AdminKey,
+				Truman,
+				Result:TrumanCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TUMAS *******/
+		item TumasCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Tümas' Corpse,
+				Icon				=	NPCCorpseCrowMother,
+				WorldStaticModel	=	CorpseTumas,
+			}
+
+		recipe Kill Tümas
+			{
+				keep AdminKey,
+				Tumas,
+				Result:TumasCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TYRELL MASON *******/
+		item TyrellCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Tyrell Mason's Corpse,
+				Icon				=	NPCCorpseTyrell,
+				WorldStaticModel	=	CorpseTyrell,
+			}
+
+		recipe Kill Tyrell
+			{
+				keep AdminKey,
+				Tyrell,
+				Result:TyrellCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* WAR PIG *******/
+		item WarPigCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	War Pig's Corpse,
+				Icon				=	NPCCorpseWarPig,
+				WorldStaticModel	=	CorpseWarPig,
+			}
+
+		recipe Kill War Pig
+			{
+				keep AdminKey,
+				WarPig,
+				Result:WarPigCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* WENDY KANG *******/
+		item WendyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Wendy Kang's Corpse,
+				Icon				=	NPCCorpseWendy,
+				WorldStaticModel	=	CorpseWendy,
+			}
+
+		recipe Kill Wendy
+			{
+				keep AdminKey,
+				Wendy,
+				Result:WendyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+/**********************************************************/
+
+	/******* WILL FISHER *******/
+		item WillCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Will Fisher's Corpse,
+				Icon				=	NPCCorpseWill,
+				WorldStaticModel	=	CorpseWill,
+			}
+
+		recipe Kill Will
+			{
+				keep AdminKey,
+				Will,
+				Result:WillCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* WILLIAM KOZUCH *******/
+		item KozuchCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	William Kozuch's Corpse,
+				Icon				=	NPCCorpseKozuch,
+				WorldStaticModel	=	CorpseKozuch,
+			}
+
+		recipe Kill William
+			{
+				keep AdminKey,
+				Kozuch,
+				Result:KozuchCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LESLIE WINTON *******/
+		item WintonCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Leslie Winton's Corpse,
+				Icon				=	NPCCorpseWinton,
+				WorldStaticModel	=	CorpseWinton,
+			}
+
+		recipe Kill Leslie
+			{
+				keep AdminKey,
+				Winton,
+				Result:WintonCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,	
+			}
+
+/**********************************************************/
+
+	/******* ZIGGY *******/
+		item ZiggyCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Ziggy's Corpse,
+				Icon				=	NPCCorpseZiggy,
+				WorldStaticModel	=	CorpseZiggy,
+			}
+
+		recipe Kill Ziggy
+			{
+				keep AdminKey,
+				Ziggy/Ziggy2/Ziggy3,
+				Result:ZiggyCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/************************ GENERIC NPCS ************************/
+
+	/******* FEMALE BRIGHTON SOLDIER 1 *******/
+		item BrightonSoldierFemale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Brighton Soldier's Corpse,
+				Icon				=	NPCCorpseBrightonSoldierFemale1,
+				WorldStaticModel	=	CorpseBrightonSoldierFemale1,
+			}
+
+		recipe Kill Female Brighton Soldier
+			{
+				keep AdminKey,
+				BrightonSoldierFemale1,
+				Result:BrightonSoldierFemale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE BRIGHTON SOLDIER 2 *******/
+		item BrightonSoldierFemale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Brighton Soldier's Corpse,
+				Icon				=	NPCCorpseBrightonSoldierFemale2,
+				WorldStaticModel	=	CorpseBrightonSoldierFemale2,
+			}
+
+		recipe Kill Female Brighton Soldier
+			{
+				keep AdminKey,
+				BrightonSoldierFemale2,
+				Result:BrightonSoldierFemale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALE BRIGHTON SOLDIER 1 *******/
+		item BrightonSoldierMale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Brighton Soldier's Corpse,
+				Icon				=	NPCCorpseBrightonSoldierMale1,
+				WorldStaticModel	=	CorpseBrightonSoldierMale1,
+			}
+
+		recipe Kill Male Brighton Soldier
+			{
+				keep AdminKey,
+				BrightonSoldierMale1,
+				Result:BrightonSoldierMale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE BRIGHTON SOLDIER 2 *******/
+		item BrightonSoldierMale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Brighton Soldier's Corpse,
+				Icon				=	NPCCorpseBrightonSoldierMale2,
+				WorldStaticModel	=	CorpseBrightonSoldierMale2,
+			}
+
+		recipe Kill Male Brighton Soldier
+			{
+				keep AdminKey,
+				BrightonSoldierMale2,
+				Result:BrightonSoldierMale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE CROW 1 *******/
+		item CrowFemale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Crow's Corpse,
+				Icon				=	NPCCorpseCrowFemale1,
+				WorldStaticModel	=	CorpseCrowFemale1,
+			}
+
+		recipe Kill Female Crow
+			{
+				keep AdminKey,
+				CrowFemale1,
+				Result:CrowFemale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE CROW 2 *******/
+		item CrowFemale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Crow's Corpse,
+				Icon				=	NPCCorpseCrowFemale2,
+				WorldStaticModel	=	CorpseCrowFemale2,
+			}
+
+		recipe Kill Female Crow
+			{
+				keep AdminKey,
+				CrowFemale2,
+				Result:CrowFemale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALE CROW 1 *******/
+		item CrowMale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Crow's Corpse,
+				Icon				=	NPCCorpseCrowMale1,
+				WorldStaticModel	=	CorpseCrowMale1,
+			}
+
+		recipe Kill Male Crow
+			{
+				keep AdminKey,
+				CrowMale1,
+				Result:CrowMale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE CROW 2 *******/
+		item CrowMale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Crow's Corpse,
+				Icon				=	NPCCorpseCrowMale2,
+				WorldStaticModel	=	CorpseCrowMale2,
+			}
+
+		recipe Kill Male Crow
+			{
+				keep AdminKey,
+				CrowMale2,
+				Result:CrowMale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE CULTIST 1 *******/
+		item CultistFemale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Cultist's Corpse,
+				Icon				=	NPCCorpseCultistFemale1,
+				WorldStaticModel	=	CorpseCultistFemale1,
+			}
+
+		recipe Kill Female Cultist
+			{
+				keep AdminKey,
+				CultistFemale1,
+				Result:CultistFemale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE CULTIST 2 *******/
+		item CultistFemale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Cultist's Corpse,
+				Icon				=	NPCCorpseCultistFemale2,
+				WorldStaticModel	=	CorpseCultistFemale2,
+			}
+
+		recipe Kill Female Cultist
+			{
+				keep AdminKey,
+				CultistFemale2,
+				Result:CultistFemale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALE CULTIST 1 *******/
+		item CultistMale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Cultist's Corpse,
+				Icon				=	NPCCorpseCultistMale1,
+				WorldStaticModel	=	CorpseCultistMale1,
+			}
+
+		recipe Kill Male Cultist
+			{
+				keep AdminKey,
+				CultistMale1,
+				Result:CultistMale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE CULTIST 2 *******/
+		item CultistMale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Cultist's Corpse,
+				Icon				=	NPCCorpseCultistMale2,
+				WorldStaticModel	=	CorpseCultistMale2,
+			}
+
+		recipe Kill Male Cultist
+			{
+				keep AdminKey,
+				CultistMale2,
+				Result:CultistMale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE CULTIST 3 *******/
+		item CultistMale3Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Cultist's Corpse,
+				Icon				=	NPCCorpseCultistMale3,
+				WorldStaticModel	=	CorpseCultistMale3,
+			}
+
+		recipe Kill Male Cultist
+			{
+				keep AdminKey,
+				CultistMale3,
+				Result:CultistMale3Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE CULTIST 4 *******/
+		item CultistMale4Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Cultist's Corpse,
+				Icon				=	NPCCorpseCultistMale4,
+				WorldStaticModel	=	CorpseCultistMale4,
+			}
+
+		recipe Kill Male Cultist
+			{
+				keep AdminKey,
+				CultistMale4,
+				Result:CultistMale4Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE MILITIA MEMBER 1 *******/
+		item MilitiaFemale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Militia Member's Corpse,
+				Icon				=	NPCCorpseMilitiaFemale1,
+				WorldStaticModel	=	CorpseMilitiaFemale1,
+			}
+
+		recipe Kill Female Militia Member
+			{
+				keep AdminKey,
+				MilitiaFemale1,
+				Result:MilitiaFemale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE MILITIA MEMBER 2 *******/
+		item MilitiaFemale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Militia Member's Corpse,
+				Icon				=	NPCCorpseMilitiaFemale2,
+				WorldStaticModel	=	CorpseMilitiaFemale2,
+			}
+
+		recipe Kill Female Militia Member
+			{
+				keep AdminKey,
+				MilitiaFemale2,
+				Result:MilitiaFemale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALE MILITIA MEMBER 1 *******/
+		item MilitiaMale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Militia Member's Corpse,
+				Icon				=	NPCCorpseMilitiaMale1,
+				WorldStaticModel	=	CorpseMilitiaMale1,
+			}
+
+		recipe Kill Male Militia Member
+			{
+				keep AdminKey,
+				MilitiaMale1,
+				Result:MilitiaMale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE MILITIA MEMBER 2 *******/
+		item MilitiaMale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Militia Member's Corpse,
+				Icon				=	NPCCorpseMilitiaMale2,
+				WorldStaticModel	=	CorpseMilitiaMale2,
+			}
+
+		recipe Kill Male Militia Member
+			{
+				keep AdminKey,
+				MilitiaMale2,
+				Result:MilitiaMale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE MILITIA MEMBER 3 *******/
+		item MilitiaMale3Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Militia Member's Corpse,
+				Icon				=	NPCCorpseMilitiaMale3,
+				WorldStaticModel	=	CorpseMilitiaMale3,
+			}
+
+		recipe Kill Male Militia Member
+			{
+				keep AdminKey,
+				MilitiaMale3,
+				Result:MilitiaMale3Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE MILLER MOOK 1 *******/
+		item BanditFemale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditFemale1,
+				WorldStaticModel	=	CorpseBanditFemale1,
+			}
+
+		recipe Kill Female Miller Mook
+			{
+				keep AdminKey,
+				BanditFemale1,
+				Result:BanditFemale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE MILLER MOOK 2 *******/
+		item BanditFemale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditFemale2,
+				WorldStaticModel	=	CorpseBanditFemale2,
+			}
+			
+		recipe Kill Female Miller Mook
+			{
+				keep AdminKey,
+				BanditFemale2,
+				Result:BanditFemale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* FEMALE MILLER MOOK 3 *******/
+		item BanditFemale3Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditFemale3,
+				WorldStaticModel	=	CorpseBanditFemale3,
+			}
+			
+		recipe Kill Female Miller Mook
+			{
+				keep AdminKey,
+				BanditFemale3,
+				Result:BanditFemale3Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MALE MILLER MOOK 1 *******/
+		item BanditMale1Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditMale1,
+				WorldStaticModel	=	CorpseBanditMale1,
+			}
+
+		recipe Kill Male Miller Mook
+			{
+				keep AdminKey,
+				BanditMale1,
+				Result:BanditMale1Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+	/******* MALE MILLER MOOK 2 *******/
+		item BanditMale2Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditMale2,
+				WorldStaticModel	=	CorpseBanditMale2,
+			}
+
+		recipe Kill Male Miller Mook
+			{
+				keep AdminKey,
+				BanditMale2,
+				Result:BanditMale2Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+	/******* MALE MILLER MOOK 3 *******/
+		item BanditMale3Corpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Miller Mooks's Corpse,
+				Icon				=	NPCCorpseBanditMale3,
+				WorldStaticModel	=	CorpseBanditMale3,
+			}
+
+		recipe Kill Male Miller Mook
+			{
+				keep AdminKey,
+				BanditMale3,
+				Result:BanditMale3Corpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER A *******/
+		item RangerGenericFemaleACorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericFemaleA,
+				WorldStaticModel	=	CorpseRangerGenericFemaleA,
+			}
+
+		recipe Kill Female Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA2/RangerGenericFemaleA3/RangerGenericFemaleA4/RangerGenericFemaleA5/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleACorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER B *******/
+		item RangerGenericFemaleBCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericFemaleB,
+				WorldStaticModel	=	CorpseRangerGenericFemaleB,
+			}
+
+		recipe Kill Female Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB2/RangerGenericFemaleB3/RangerGenericFemaleB4/RangerGenericFemaleB5/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleBCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER C *******/
+		item RangerGenericFemaleCCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericFemaleC,
+				WorldStaticModel	=	CorpseRangerGenericFemaleC,
+			}
+
+		recipe Kill Female Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC2/RangerGenericFemaleC3/RangerGenericFemaleC4/RangerGenericFemaleC5/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleCCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER D *******/
+		item RangerGenericFemaleDCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Female Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericFemaleD,
+				WorldStaticModel	=	CorpseRangerGenericFemaleD,
+			}
+
+		recipe Kill Female Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD2/RangerGenericFemaleD3/RangerGenericFemaleD4/RangerGenericFemaleD5/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleDCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER A *******/
+		item RangerGenericMaleACorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleA,
+				WorldStaticModel	=	CorpseRangerGenericMaleA,
+			}
+			
+		item RangerGenericMaleACorpse2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleA2,
+				WorldStaticModel	=	CorpseRangerGenericMaleA2,
+			}
+
+		item RangerGenericMaleACorpse3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleA3,
+				WorldStaticModel	=	CorpseRangerGenericMaleA3,
+			}
+
+		recipe Kill Male Coalition Ranger (Pose 1)
+			{
+				keep AdminKey,
+				RangerGenericMaleA/RangerGenericMaleA2/RangerGenericMaleA3,
+				Result:RangerGenericMaleACorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Kill Male Coalition Ranger (Pose 2)
+			{
+				keep AdminKey,
+				RangerGenericMaleA/RangerGenericMaleA2/RangerGenericMaleA3,
+				Result:RangerGenericMaleACorpse2,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe Kill Male Coalition Ranger (Pose 3)
+			{
+				keep AdminKey,
+				RangerGenericMaleA/RangerGenericMaleA2/RangerGenericMaleA3,
+				Result:RangerGenericMaleACorpse3,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER B *******/
+		item RangerGenericMaleBCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleB,
+				WorldStaticModel	=	CorpseRangerGenericMaleB,
+			}
+
+		recipe Kill Male Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB2/RangerGenericMaleB3/RangerGenericMaleB4/RangerGenericMaleB5/RangerGenericMaleB6,
+				Result:RangerGenericMaleBCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER C *******/
+		item RangerGenericMaleCCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleC,
+				WorldStaticModel	=	CorpseRangerGenericMaleC,
+			}
+
+		recipe Kill Male Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC2/RangerGenericMaleC3/RangerGenericMaleC4/RangerGenericMaleC5/RangerGenericMaleC6,
+				Result:RangerGenericMaleCCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER D *******/
+		item RangerGenericMaleDCorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleD,
+				WorldStaticModel	=	CorpseRangerGenericMaleD,
+			}
+
+		recipe Kill Male Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD2/RangerGenericMaleD3/RangerGenericMaleD4/RangerGenericMaleD5/RangerGenericMaleD6,
+				Result:RangerGenericMaleDCorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER E *******/
+		item RangerGenericMaleECorpse
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=   Corpse, 
+				DisplayName			=	Male Coalition Ranger's Corpse,
+				Icon				=	NPCCorpseRangerGenericMaleE,
+				WorldStaticModel	=	CorpseRangerGenericMaleE,
+			}
+
+		recipe Kill Male Coalition Ranger
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleECorpse,
+				Category:Corpse,
+				IsHidden:true,
+				Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+}

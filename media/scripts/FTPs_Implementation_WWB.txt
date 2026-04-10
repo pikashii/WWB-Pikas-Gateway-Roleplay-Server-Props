@@ -1,0 +1,707 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ FAST TRAVEL POINT LIST ************************/
+	
+	/* CANADA */
+		/* USS Cyclops / Eldridge Lift (Up/Down) */
+		/* Miller Asylum Basement (Up/Down) */
+
+	/* CELEPHAIS */
+		/* Main Entrance (Enter/Exit) */
+		/* Prison Entrance (Enter/Exit) */
+		/* Utility Tunnels Entrance (Up/Down) */
+		/* Solitary Confinement Block Entrance (Up/Down) */
+		/* Sprawl Entrance (Up/Down) */
+		/* Clean Room Hall Lift (Up/Down) */
+		/* Observation Lab Control Center Lift (Up/Down) */
+		/* Vault Entrance (Up/Down) */
+		/* Vault Cargo Lift (Up/Down) */
+		/* Core Entrance (Enter/Exit) */
+		/* Core Lift (Up/Down) */
+		/* C130 (Enter/Exit) */
+
+	/* PITTSFORD */
+		/* Tram Station Access (Enter/Exit) */
+		/* Tram Station Sewer Access (Up/Down) */
+		/* RFO Sewer Access (Up/Down) */
+		/* Fight Club Access (Up/Down) */
+		/* Master Tram (All Districts) */
+	
+	/* TEXAS */
+		/* Cellar Access (Enter/Exit) */
+
+	/* OTHER */
+		/* Ship Vents Access (Enter/Exit) */
+		/* Ship Access Doors (Enter/Exit x2) */
+
+/************************ CANADA FAST TRAVEL POINTS ************************/
+
+	/******* USS CYCLOPS / ELDRIDGE LIFT *******/
+		recipe Take Lift Up
+			{
+				keep FTCyclops1,
+				Result:FTCyclops1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCyclops,
+			}
+
+		recipe Take Lift Down
+			{
+				keep FTCyclops2,
+				Result:FTCyclops2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCyclops,
+			}
+
+/**********************************************************/
+
+	/******* MILLER ASYLUM BASEMENT *******/
+		recipe Climb Down Ladder
+			{
+				keep FTMiller1,
+				Result:FTMiller1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterMiller,
+			}
+
+		recipe Climb Up Ladder
+			{
+				keep FTMiller2,
+				Result:FTMiller2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitMiller,
+			}
+
+/************************ CELEPHAIS FAST TRAVEL POINTS ************************/
+
+	/******* MAIN ENTRANCE *******/
+		recipe Enter Celephais
+			{
+				keep FTCEntrance1,
+				Result:FTCEntrance1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCelephais,
+			}
+
+		recipe Exit Celephais
+			{
+				keep FTCEntrance2,
+				Result:FTCEntrance2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCelephais,
+			}
+
+/**********************************************************/
+
+	/******* PRISON ENTRANCE *******/
+		recipe Enter Prison
+			{
+				keep FTCPrison1,
+				Result:FTCPrison1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterPrison,
+			}
+
+		recipe Exit Prison
+			{
+				keep FTCPrison2,
+				Result:FTCPrison2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitPrison,
+			}
+
+/**********************************************************/
+
+	/******* UTILITY TUNNELS ENTRANCE *******/
+		recipe Climb Down Ladder
+			{
+				keep FTCUtility1,
+				Result:FTCUtility1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterUtility,
+			}
+
+		recipe Climb Up Ladder
+			{
+				keep FTCUtility2,
+				Result:FTCUtility2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitUtility,
+			}
+
+/**********************************************************/
+
+	/******* SOLITARY CONFINEMENT BLOCK ENTRANCE *******/
+		recipe Take Lift to Solitary Confinement Block
+			{
+				keep FTCSolitary1,
+				Result:FTCSolitary1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterSolitary,
+			}
+
+		recipe Take Lift to Maximum Security Block
+			{
+				keep FTCSolitary2,
+				Result:FTCSolitary2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitSolitary,
+			}
+
+/**********************************************************/
+
+	/******* SPRAWL ENTRANCE *******/
+		recipe Take Lift to The Sprawl
+			{
+				keep FTCSprawl1,
+				Result:FTCSprawl1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterSprawl,
+			}
+
+		recipe Take Lift to Prison
+			{
+				keep FTCSprawl2,
+				Result:FTCSprawl2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitSprawl,
+			}
+
+/**********************************************************/
+
+	/******* CLEAN ROOM HALL LIFT *******/
+		recipe Take Lift Up
+			{
+				keep FTCClean1,
+				Result:FTCClean1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterClean,
+			}
+
+		recipe Take Lift Down
+			{
+				keep FTCClean2,
+				Result:FTCClean2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitClean,
+			}
+
+/**********************************************************/
+
+	/******* OBSERVATION LAB CONTROL CENTER LIFT *******/
+		recipe Take Lift Down
+			{
+				keep FTCObs1,
+				Result:FTCObs1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterObs,
+			}
+
+		recipe Take Lift Up
+			{
+				keep FTCObs2,
+				Result:FTCObs2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitObs,
+			}
+
+/**********************************************************/
+
+	/******* VAULT ENTRANCE *******/
+		recipe Take Lift to The Vault
+			{
+				keep FTCVault1,
+				Result:FTCVault1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterVault,
+			}
+
+		recipe Take Lift to The Sprawl
+			{
+				keep FTCVault2,
+				Result:FTCVault2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitVault,
+			}
+
+/**********************************************************/
+
+	/******* VAULT CARGO LIFT *******/
+		recipe Take Lift Down
+			{
+				keep FTCCargo1,
+				Result:FTCCargo1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCargo,
+			}
+
+		recipe Take Lift Up
+			{
+				keep FTCCargo2,
+				Result:FTCCargo2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCargo,
+			}
+
+/**********************************************************/
+
+	/******* CORE ENTRANCE *******/
+		recipe Enter The Core
+			{
+				keep FTCCore1,
+				Result:FTCCore1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCore,
+			}
+
+		recipe Exit The Core
+			{
+				keep FTCCore2,
+				Result:FTCCore2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCore,
+			}
+			
+/**********************************************************/
+
+	/******* CORE LIFT *******/
+		recipe Take Lift Up
+			{
+				keep FTCCoreLift1,
+				Result:FTCCoreLift1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCoreLift,
+			}
+
+		recipe Take Lift Down
+			{
+				keep FTCCoreLift2,
+				Result:FTCCoreLift2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:50.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCoreLift,
+			}
+
+/**********************************************************/
+
+	/******* C130 *******/
+		recipe Enter Lockheed C-130 Hercules
+			{
+				keep C130,
+				Result:C130,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterC130,
+			}
+			
+		recipe Exit Lockheed C-130 Hercules
+			{
+				keep FTC130,
+				Result:FTC130,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitC130,
+			}
+
+/************************ PITTSFORD FAST TRAVEL POINTS ************************/
+
+	/******* TRAM STATION ACCESS *******/
+		recipe Ride Escalator Down to Tram Station
+			{
+				keep FTTSAccess1,
+				Result:FTTSAccess1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterTS,
+			}
+			
+		recipe Ride Escalator Up to The Breach
+			{
+				keep FTTSAccess2,
+				Result:FTTSAccess2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitTS,
+			}
+
+/**********************************************************/
+
+	/******* TRAM STATION SEWERS ACCESS *******/
+		recipe Climb Down to Sewers
+			{
+				keep FTTSSAccess1,
+				Result:FTTSSAccess1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterTSS,
+			}
+			
+		recipe Climb Up to Tram Station
+			{
+				keep FTTSSAccess2,
+				Result:FTTSSAccess2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitTSS,
+			}
+
+/**********************************************************/
+
+	/******* RFO SEWERS ACCESS *******/
+		recipe Climb Down to Sewers
+			{
+				keep FTRFOSAccess1,
+				Result:FTRFOSAccess1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterRFOS,
+			}
+			
+		recipe Climb Up to Ranger Field Office
+			{
+				keep FTRFOSAccess2,
+				Result:FTRFOSAccess2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitRFOS,
+			}
+
+/**********************************************************/
+
+	/******* FIGHT CLUB ACCESS *******/
+		recipe Climb Down to Fight Club
+			{
+				keep FTFCAccess1,
+				Result:FTFCAccess1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterFC,
+			}
+			
+		recipe Climb Up to Liberty District
+			{
+				keep FTFCAccess2,
+				Result:FTFCAccess2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitFC,
+			}
+
+/**********************************************************/
+
+	/******* MASTER TRAM *******/
+		recipe Take Tram to Tram Station
+			{
+				keep FTTram,
+				Result:FTTram,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:TramTS,
+			}
+
+		recipe Take Tram to Ranger Field Office
+			{
+				keep FTTram,
+				Result:FTTram,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:TramRFO,
+			}
+
+		recipe Take Tram to Liberty District
+			{
+				keep FTTram,
+				Result:FTTram,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:TramLiberty,
+			}
+
+		recipe Take Tram to Nazareth District
+			{
+				keep FTTram,
+				Result:FTTram,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:TramNazareth,
+			}
+
+/************************ TEXAS FAST TRAVEL POINTS ************************/
+
+	/******* CELLAR ACCESS *******/
+		recipe Climb Down to Cellar
+			{
+				keep FTCellarAccess1,
+				Result:FTCellarAccess1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterCellar,
+			}
+			
+		recipe Climb Up to Farmhouse
+			{
+				keep FTCellarAccess2,
+				Result:FTCellarAccess2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitCellar,
+			}
+
+/************************ OTHER FAST TRAVEL POINTS ************************/
+
+	/******* SHIP VENTS ACCESS *******/
+		recipe Enter Vents
+			{
+				keep FTDSVents1,
+				Result:FTDSVents1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterDSVents1,
+			}
+
+		recipe Exit Vents
+			{
+				keep FTDSVents2,
+				Result:FTDSVents2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitDSVents1,
+			}
+
+		recipe Enter Vents
+			{
+				keep FTDSVents3,
+				Result:FTDSVents3,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterDSVents2,
+			}
+
+		recipe Exit Vents
+			{
+				keep FTDSVents4,
+				Result:FTDSVents4,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitDSVents2,
+			}
+
+	/******* SHIP ACCESS DOORS *******/
+		recipe Enter Ship
+			{
+				keep FTDSShip1,
+				Result:FTDSShip1,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterDSShip1,
+			}
+
+		recipe Exit Ship
+			{
+				keep FTDSShip2,
+				Result:FTDSShip2,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitDSShip1,
+			}
+
+		recipe Enter Ship
+			{
+				keep FTDSShip3,
+				Result:FTDSShip3,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:EnterDSShip2,
+			}
+
+		recipe Exit Ship
+			{
+				keep FTDSShip4,
+				Result:FTDSShip4,
+				Category:FastTravelPoint,
+				IsHidden:true,
+				Time:15.0,
+				CanBeDoneFromFloor:true,
+				RemoveResultItem:true,
+				OnCreate:ExitDSShip2,
+			}
+}

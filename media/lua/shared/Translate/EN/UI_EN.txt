@@ -1,0 +1,199 @@
+UI_EN = {
+	UI_Image_MaxPoster = "<IMAGECENTRE:media/ui/MaxPoster.png>"
+	UI_Text_MaxPoster = "<CENTRE>HAVE YOU SEEN THIS WOMAN?"
+
+	UI_Image_Abraham = "<IMAGECENTRE:media/ui/Abraham.png>"
+	UI_Text_Abraham = "<CENTRE>Abraham's Appearance"
+	
+	UI_Image_Aiden = "<IMAGECENTRE:media/ui/Aiden.png>"
+	UI_Text_Aiden = "<CENTRE>Aiden Ward's Appearance"
+
+	UI_Image_Amanda = "<IMAGECENTRE:media/ui/Amanda.png>"
+	UI_Text_Amanda = "<CENTRE>Amanda Cahill's Appearance"
+
+	UI_Image_Ben = "<IMAGECENTRE:media/ui/Ben.png>"
+	UI_Text_Ben = "<CENTRE>Ben's Appearance"
+	
+	UI_Image_Blackwell = "<IMAGECENTRE:media/ui/Blackwell.png>"
+	UI_Text_Blackwell = "<CENTRE>Thomas Blackwell's Appearance"
+	
+	UI_Image_Carl = "<IMAGECENTRE:media/ui/Carl.png>"
+	UI_Text_Carl = "<CENTRE>Carl Miller's Appearance"
+
+	UI_Image_Casey = "<IMAGECENTRE:media/ui/Casey.png>"
+	UI_Text_Casey = "<CENTRE>Casey Hart's Appearance"
+
+	UI_Image_Cassandra = "<IMAGECENTRE:media/ui/Cassandra.png>"
+	UI_Text_Cassandra = "<CENTRE>Cassandra's Appearance"
+
+	UI_Image_Charles = "<IMAGECENTRE:media/ui/Charles.png>"
+	UI_Text_Charles = "<CENTRE>Charles Blackwell's Appearance"
+
+	UI_Image_Cole = "<IMAGECENTRE:media/ui/Cole.png>"
+	UI_Text_Cole = "<CENTRE>Cole's Appearance"
+
+	UI_Image_Dakota = "<IMAGECENTRE:media/ui/Dakota.png>"
+	UI_Text_Dakota = "<CENTRE>Dakota Hill's Appearance"
+
+	UI_Image_Dani = "<IMAGECENTRE:media/ui/Dani.png>"
+	UI_Text_Dani = "<CENTRE>Danielle Stenton's Appearance"
+	
+	UI_Image_Darren = "<IMAGECENTRE:media/ui/Darren.png>"
+	UI_Text_Darren = "<CENTRE>Darren McKidd's Appearance"
+
+	UI_Image_Deanna = "<IMAGECENTRE:media/ui/Deanna.png>"
+	UI_Text_Deanna = "<CENTRE>Deanna's Appearance"
+
+	UI_Image_Del = "<IMAGECENTRE:media/ui/Del.png>"
+	UI_Text_Del = "<CENTRE>Del's Appearance"
+
+	UI_Image_Demi = "<IMAGECENTRE:media/ui/Demi.png>"
+	UI_Text_Demi = "<CENTRE>Demi McIntosh's Appearance"
+	
+	UI_Image_Don = "<IMAGECENTRE:media/ui/Don.png>"
+	UI_Text_Don = "<CENTRE>Don Jones' Appearance"
+
+	UI_Image_Kilean = "<IMAGECENTRE:media/ui/Dwight.png>"
+	UI_Text_Kilean = "<CENTRE>Dwight Kilean's Appearance"
+
+	UI_Image_Duke = "<IMAGECENTRE:media/ui/Duke.png>"
+	UI_Text_Duke = "<CENTRE>Duke Helmer's Appearance"
+
+	UI_Image_Eddie = "<IMAGECENTRE:media/ui/Eddie.png>"
+	UI_Text_Eddie = "<CENTRE>Eddie Zielinski's Appearance"
+
+	UI_Image_Eugene = "<IMAGECENTRE:media/ui/Eugene.png>"
+	UI_Text_Eugene = "<CENTRE>Eugene Collins' Appearance"
+
+	UI_Image_Ezekiel = "<IMAGECENTRE:media/ui/Ezekiel.png>"
+	UI_Text_Ezekiel = "<CENTRE>Ezekiel's Appearance"
+
+	UI_Image_Francis = "<IMAGECENTRE:media/ui/Hood.png>"
+	UI_Text_Francis = "<CENTRE>Francis Hood's Appearance"
+
+	UI_Image_Franco = "<IMAGECENTRE:media/ui/Franco.png>"
+	UI_Text_Franco = "<CENTRE>Franco Joy's Appearance"
+
+	UI_Image_Gabriel = "<IMAGECENTRE:media/ui/Gabriel.png>"
+	UI_Text_Gabriel = "<CENTRE>Gabriel Barton's Appearance"
+
+	UI_Image_Greg = "<IMAGECENTRE:media/ui/Greg.png>"
+	UI_Text_Greg = "<CENTRE>Greg Foster's Appearance"
+
+	UI_Image_Hana = "<IMAGECENTRE:media/ui/Hana.png>"
+	UI_Text_Hana = "<CENTRE>Hana Takeuchi's Appearance"
+
+	UI_Image_Henry = "<IMAGECENTRE:media/ui/Henry.png>"
+	UI_Text_Henry = "<CENTRE>Henry Clancy's Appearance"
+
+	UI_Image_Jack = "<IMAGECENTRE:media/ui/Jack.png>"
+	UI_Text_Jack = "<CENTRE>Jack Bevis' Appearance"
+	
+	UI_Image_Jared = "<IMAGECENTRE:media/ui/Jared.png>"
+	UI_Text_Jared = "<CENTRE>Jared Vaugerson's Appearance"
+
+	UI_Image_Jason = "<IMAGECENTRE:media/ui/Jason.png>"
+	UI_Text_Jason = "<CENTRE>Jason Selby's Appearance"
+
+	UI_Image_Javier = "<IMAGECENTRE:media/ui/Javier.png>"
+	UI_Text_Javier = "<CENTRE>Javier Nassim Abdessalam's Appearance"
+
+	UI_Image_John = "<IMAGECENTRE:media/ui/John.png>"
+	UI_Text_John = "<CENTRE>John's Appearance"
+
+	UI_Image_Junior = "<IMAGECENTRE:media/ui/Junior.png>"
+	UI_Text_Junior = "<CENTRE>Junior Kilean's Appearance"
+
+	UI_Image_Kelly = "<IMAGECENTRE:media/ui/Kelly.png>"
+	UI_Text_Kelly = "<CENTRE>Kelly's Appearance"
+
+	UI_Image_Larue = "<IMAGECENTRE:media/ui/Larue.png>"
+	UI_Text_Larue = "<CENTRE>Larue Monroe's Appearance"
+
+	UI_Image_Leclair = "<IMAGECENTRE:media/ui/Leclair.png>"
+	UI_Text_Leclair = "<CENTRE>Leclair Mercier's Appearance"
+
+	UI_Image_Gomez = "<IMAGECENTRE:media/ui/Gomez.png>"
+	UI_Text_Gomez = "<CENTRE>Louis Gomez's Appearance"
+
+	UI_Image_Malcolm = "<IMAGECENTRE:media/ui/Malcolm.png>"
+	UI_Text_Malcolm = "<CENTRE>Malcolm Brooks' Appearance"
+
+	UI_Image_Mansukh = "<IMAGECENTRE:media/ui/Mansukh.png>"
+	UI_Text_Mansukh = "<CENTRE>Mansukh Ramachandran's Appearance"
+
+	UI_Image_Marlene = "<IMAGECENTRE:media/ui/Marlene.png>"
+	UI_Text_Marlene = "<CENTRE>Marlene's Appearance"
+
+	UI_Image_Marshall = "<IMAGECENTRE:media/ui/Marshall.png>"
+	UI_Text_Marshall = "<CENTRE>Marshall Grant's Appearance"
+
+	UI_Image_Marvin = "<IMAGECENTRE:media/ui/Marvin.png>"
+	UI_Text_Marvin = "<CENTRE>Marvin Findlay's Appearance"
+
+	UI_Image_Matias = "<IMAGECENTRE:media/ui/Matias.png>"
+	UI_Text_Matias = "<CENTRE>Matias Brühl's Appearance"
+
+	UI_Image_Miller = "<IMAGECENTRE:media/ui/Miller.png>"
+	UI_Text_Miller = "<CENTRE>Miller Wardwell's Appearance"
+
+	UI_Image_Miranda = "<IMAGECENTRE:media/ui/Miranda.png>"
+	UI_Text_Miranda = "<CENTRE>Miranda Ward's Appearance"
+
+	UI_Image_Molly = "<IMAGECENTRE:media/ui/Molly.png>"
+	UI_Text_Molly = "<CENTRE>Molly's Appearance"
+
+	UI_Image_Nathan = "<IMAGECENTRE:media/ui/Nathan.png>"
+	UI_Text_Nathan = "<CENTRE>Nathan Coleman's Appearance"
+
+	UI_Image_Nathan = "<IMAGECENTRE:media/ui/Rachel.png>"
+	UI_Text_Nathan = "<CENTRE>Rachel Bevis' Appearance"
+
+	UI_Image_Rhea = "<IMAGECENTRE:media/ui/Rhea.png>"
+	UI_Text_Rhea = "<CENTRE>Rhea Varnado's Appearance"
+	
+	UI_Image_Robert = "<IMAGECENTRE:media/ui/Robert.png>"
+	UI_Text_Robert = "<CENTRE>Robert's Appearance"
+
+	UI_Image_Robert = "<IMAGECENTRE:media/ui/Sam.png>"
+	UI_Text_Robert = "<CENTRE>Sam's Appearance"
+
+	UI_Image_Sharon = "<IMAGECENTRE:media/ui/Sharon.png>"
+	UI_Text_Sharon = "<CENTRE>Sharon Kravtiz's Appearance"
+
+	UI_Image_Bezrukov = "<IMAGECENTRE:media/ui/Stanislav.png>"
+	UI_Text_Bezrukov = "<CENTRE>Stanislav Bezrukov's Appearance"
+
+	UI_Image_Stella = "<IMAGECENTRE:media/ui/Stella.png>"
+	UI_Text_Stella = "<CENTRE>Stella Takeuchi's Appearance"
+
+	UI_Image_Drummer = "<IMAGECENTRE:media/ui/Drummer.png>"
+	UI_Text_Drummer = "<CENTRE>Stephen Drummer's Appearance"
+
+	UI_Image_Tara = "<IMAGECENTRE:media/ui/Tara.png>"
+	UI_Text_Tara = "<CENTRE>Tara Garland's Appearance"
+
+	UI_Image_TMIR = "<IMAGECENTRE:media/ui/TMIR.png>"
+	UI_Text_TMIR = "<CENTRE>The Man in Red's Appearance"
+
+	UI_Image_Truman = "<IMAGECENTRE:media/ui/Truman.png>"
+	UI_Text_Truman = "<CENTRE>Truman Parker's Appearance"
+
+	UI_Image_Tyrell = "<IMAGECENTRE:media/ui/Tyrell.png>"
+	UI_Text_Tyrell = "<CENTRE>Tyrell Mason's Appearance"
+
+	UI_Image_WarPig = "<IMAGECENTRE:media/ui/WarPig.png>"
+	UI_Text_WarPig = "<CENTRE>War Pig's Appearance"
+
+	UI_Image_Wendy = "<IMAGECENTRE:media/ui/Wendy.png>"
+	UI_Text_Wendy = "<CENTRE>Wendy Kang's Appearance"
+	
+	UI_Image_Will = "<IMAGECENTRE:media/ui/Will.png>"
+	UI_Text_Will = "<CENTRE>Will Fisher's Appearance"
+
+	UI_Image_Kozuch = "<IMAGECENTRE:media/ui/Kozuch.png>"
+	UI_Text_Kozuch = "<CENTRE>William Kozuch's Appearance"
+
+	UI_Image_Winton = "<IMAGECENTRE:media/ui/Winton.png>"
+	UI_Text_Winton = "<CENTRE>Leslie Winton's Appearance"
+}

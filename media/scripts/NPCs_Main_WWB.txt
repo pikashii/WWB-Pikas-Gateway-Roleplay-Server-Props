@@ -1,0 +1,4283 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ NPC LIST ************************/
+
+	/* UNIQUE NPCS */
+		/* Abraham */
+		/* Abraham Battle*/
+		/* Addison Sobic */
+		/* Adrian Sandoval */
+		/* Aiden Ward */
+		/* Al Kitano */
+		/* Alfred Tennyson */
+		/* Amanda Baldock */
+		/* Amanda Cahill */
+		/* Amos Kaffee */
+		/* Ben */
+		/* Blackwell */
+		/* Carl Miller */
+		/* Casey Hart */
+		/* Cassandra */
+		/* Charles Blackwell */
+		/* Clue Friedlander */
+		/* Cole */
+		/* Dakota Hill */
+		/* Danielle Stenton */
+		/* Darren McKidd */
+		/* Deanna */
+		/* Dennis Cooper */
+		/* Del */
+		/* Demi McIntosh */
+		/* Diamond Dog */
+		/* Diyor Tursunov */
+		/* Don Jones */
+		/* Dr. Chop */
+		/* Dwight Kilean */
+		/* Duke Helmer */
+		/* Eddie */
+		/* Elizabeth Battle */
+		/* Emily Laidlaw */
+		/* Eugene Collins */
+		/* Ezekiel */
+		/* Francis Hood */
+		/* Franco Joy */
+		/* Gabriel Barton */
+		/* Gerald Bechet */
+		/* Greg Foster */
+		/* Griff Duffy */
+		/* Hana Takeuchi */
+		/* Henry Clancy */
+		/* Jack Bevis */
+		/* Jared Vaugerson */
+		/* Jason Selby */
+		/* Javier Nassim Abdessalam */
+		/* John */
+		/* Junior Kilean */
+		/* Kelly */
+		/* Larue Monroe */
+		/* Lawrence Orman */
+		/* Leclair Mercier */
+		/* Louis Gomez */
+		/* Malcolm Brooks */
+		/* Malcolm Carradine */
+		/* Mansukh Ramachandran */
+		/* Marcus Baczek */
+		/* Markus Brandt */
+		/* Marlene */
+		/* Marshall Grant */
+		/* Marvin Findlay */
+		/* Matias Brühl */
+		/* Melanie Greenfield */
+		/* Melissa Nelson */
+		/* Miller Wardwell */
+		/* Miranda Ward */
+		/* Mockingbird */
+		/* Molly */
+		/* Morgan Battle */
+		/* Nathan Coleman */
+		/* Rachel Bevis */
+		/* Raymond McCormick */
+		/* Rene Ackerman */
+		/* Rhea Varnado */
+		/* Robert */
+		/* Sam */
+		/* Sarah Hanning */
+		/* Sharon Kravitz */
+		/* Sid */
+		/* Stanislav Bezrukov */
+		/* Stella Takeuchi */
+		/* Stephen Drummer */
+		/* Stephen Fletcher */
+		/* Tara Garland */
+		/* The Man In Red */
+		/* Thom Hanscom */
+		/* Tsaveyo */
+		/* Truman Parker */
+		/* Tümas */
+		/* Tyrell Mason */
+		/* Virgil Battle */
+		/* War Pig */
+		/* Wendy Kang */
+		/* Will Fisher */
+		/* William Kozuch */
+		/* Leslie Winton */
+		/* Ziggy */
+
+	/* GENERIC NPCS */
+		/* Brighton Soldiers */
+		/* Crows */
+		/* Cultists */
+		/* Group Six Security Officers */
+		/* Group Six Operators */
+		/* Militia Members */
+		/* Miller Mooks */
+		/* Coalition Rangers */
+		
+/************************ UNIQUE NPCS ************************/
+
+	/******* ABRAHAM *******/
+		item Abraham
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Abraham,
+				Icon				=	NPCAbraham,
+				WorldStaticModel	=	Abraham,
+			}
+
+/**********************************************************/
+
+	/******* ABRAHAM BATTLE *******/
+		item AbrahamB
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Abraham Battle,
+				Icon				=	NPCAbrahamB,
+				WorldStaticModel	=	AbrahamB,
+			}
+
+/**********************************************************/
+
+	/******* ADDISON SOBIC *******/
+		item Sobic
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Addison Sobic,
+				Icon				=	NPCSobic,
+				WorldStaticModel	=	Sobic,
+			}
+
+		item Sobic2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Addison Sobic,
+				Icon				=	NPCSobic2,
+				WorldStaticModel	=	Sobic2,
+			}
+
+		item Sobic3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Addison Sobic,
+				Icon				=	NPCSobic3,
+				WorldStaticModel	=	Sobic3,
+			}
+
+		recipe POST: Raise Hands
+			{
+				keep AdminKey,
+				Sobic2/Sobic3,
+				Result:Sobic,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POST: Raise Hand (Turn)
+			{
+				keep AdminKey,
+				Sobic/Sobic3,
+				Result:Sobic2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POST: Aim Pistol
+			{
+				keep AdminKey,
+				Sobic/Sobic2,
+				Result:Sobic3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ADRIAN SANDOVAL *******/
+		item Adrian
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Adrian Sandoval,
+				Icon				=	NPCAdrian,
+				WorldStaticModel	=	Adrian,
+			}
+
+		item Adrian2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Adrian Sandoval,
+				Icon				=	NPCAdrian2,
+				WorldStaticModel	=	Adrian2,
+			}
+
+		recipe POST: Stand Straight
+			{
+				keep AdminKey,
+				Adrian2,
+				Result:Adrian,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Weapon
+			{
+				keep AdminKey,
+				Adrian,
+				Result:Adrian2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AIDEN WARD *******/
+		item Aiden
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Aiden Ward,
+				Icon				=	NPCAiden,
+				WorldStaticModel	=	Aiden,
+			}
+
+/**********************************************************/
+
+	/******* AL KITANO *******/
+		item Kitano
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano,
+				WorldStaticModel	=	Kitano,
+			}
+
+		item Kitano2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano2,
+				WorldStaticModel	=	Kitano2,
+			}
+
+		item Kitano3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano3,
+				WorldStaticModel	=	Kitano3,
+			}
+
+		item Kitano4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano4,
+				WorldStaticModel	=	Kitano4,
+			}
+
+		item Kitano5
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano5,
+				WorldStaticModel	=	Kitano5,
+			}
+
+		item Kitano6
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano6,
+				WorldStaticModel	=	Kitano6,
+			}
+
+		item Kitano7
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Al Kitano,
+				Icon				=	NPCKitano7,
+				WorldStaticModel	=	Kitano7,
+			}
+
+		recipe POSE: Hands in Pockets
+			{
+				keep AdminKey,
+				Kitano2/Kitano3/Kitano4/Kitano5/Kitano6/Kitano7,
+				Result:Kitano,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				Kitano/Kitano3/Kitano4/Kitano5/Kitano6/Kitano7,
+				Result:Kitano2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano4/Kitano5/Kitano6/Kitano7,
+				Result:Kitano3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano3/Kitano5/Kitano6/Kitano7,
+				Result:Kitano4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Fists
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano3/Kitano4/Kitano6/Kitano7,
+				Result:Kitano5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol (Disguise)
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano3/Kitano4/Kitano5/Kitano7,
+				Result:Kitano6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle (Disguise)
+			{
+				keep AdminKey,
+				Kitano/Kitano2/Kitano3/Kitano4/Kitano5/Kitano6,
+				Result:Kitano7,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* ALFRED TENNYSON *******/
+		item Alfred
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=	NPC, 
+				DisplayName			=	Alfred Tennyson,
+				Icon				=	NPCAlfred,
+				WorldStaticModel	=	Alfred,
+			}
+
+/**********************************************************/
+
+	/******* AMANDA BALDOCK *******/
+		item Baldock
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Amanda Baldock,
+				Icon				=	NPCBaldock,
+				WorldStaticModel	=	Baldock,
+			}
+
+		item Baldock2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Amanda Baldock,
+				Icon				=	NPCBaldock2,
+				WorldStaticModel	=	Baldock2,
+			}
+
+		recipe POSE: Raise Weapon
+			{
+				keep AdminKey,
+				Baldock2,
+				Result:Baldock,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Sit
+			{
+				keep AdminKey,
+				Baldock,
+				Result:Baldock2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* AMANDA CAHILL *******/
+		item Amanda
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Amanda Cahill,
+				Icon				=	NPCAmanda,
+				WorldStaticModel	=	Amanda,
+			}
+
+/**********************************************************/
+
+	/******* AMOS KAFFEE *******/
+		item Amos
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Amos Kaffee,
+				Icon				=	NPCAmos,
+				WorldStaticModel	=	Amos,
+			}
+
+		item Amos2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Amos Kaffee,
+				Icon				=	NPCAmos2,
+				WorldStaticModel	=	Amos2,
+			}
+
+		recipe POSE: Hand on Hip
+			{
+				keep AdminKey,
+				Amos2,
+				Result:Amos,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Amos,
+				Result:Amos2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* BEN *******/
+		item Ben
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Ben,
+				Icon				=	NPCBen,
+				WorldStaticModel	=	Ben,
+			}
+
+/**********************************************************/
+
+	/******* BLACKWELL *******/
+		item Blackwell
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Blackwell,
+				Icon				=	NPCBlackwell,
+				WorldStaticModel	=	Blackwell,
+			}
+
+/**********************************************************/
+
+	/******* CARL MILLER *******/
+		item Carl
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Carl Miller,
+				Icon				=	NPCCarl,
+				WorldStaticModel	=	Carl,
+			}
+
+/**********************************************************/
+
+	/******* CASEY HART *******/
+		item Casey
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Casey Hart,
+				Icon				=	NPCCasey,
+				WorldStaticModel	=	Casey,
+			}
+
+/**********************************************************/
+
+	/******* CASSANDRA *******/
+		item Cassandra
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Cassandra,
+				Icon				=	NPCCassandra,
+				WorldStaticModel	=	Cassandra,
+			}
+
+/**********************************************************/
+
+	/******* CHARLES BLACKWELL *******/
+		item Charles
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Charles Blackwell,
+				Icon				=	NPCCharles,
+				WorldStaticModel	=	Charles,
+			}
+
+/**********************************************************/
+
+	/******* CLU FRIEDLANDER *******/
+		item Clu
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Clu Friedlander,
+				Icon				=	NPCClu,
+				WorldStaticModel	=	Clu,
+			}
+
+		item Clu2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Clu Friedlander,
+				Icon				=	NPCClu2,
+				WorldStaticModel	=	Clu2,
+			}
+
+		item Clu3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Clu Friedlander,
+				Icon				=	NPCClu3,
+				WorldStaticModel	=	Clu3,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				Clu2/Clu3,
+				Result:Clu,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Rifle
+			{
+				keep AdminKey,
+				Clu/Clu3,
+				Result:Clu2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Pistol
+			{
+				keep AdminKey,
+				Clu/Clu2,
+				Result:Clu3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* COLE *******/
+		item Cole
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Cole,
+				Icon				=	NPCCole,
+				WorldStaticModel	=	Cole,
+			}
+
+/**********************************************************/
+
+	/******* DENNIS COOPER *******/
+		item Cooper
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dennis Cooper,
+				Icon				=	NPCCooper,
+				WorldStaticModel	=	Cooper,
+			}
+
+/**********************************************************/
+
+	/******* DAKOTA HILL *******/
+		item Dakota
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dakota Hill,
+				Icon				=	NPCDakota,
+				WorldStaticModel	=	Dakota,
+			}
+
+/**********************************************************/
+
+	/******* DANIELLE STENTON *******/
+		item Dani
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Danielle Stenton,
+				Icon				=	NPCDani,
+				WorldStaticModel	=	Dani,
+			}
+
+/**********************************************************/
+
+	/******* DARREN MCKIDD *******/
+		item Darren
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Darren McKidd,
+				Icon				=	NPCDarren,
+				WorldStaticModel	=	Darren,
+			}
+
+/**********************************************************/
+
+	/******* DEANNA *******/
+		item Deanna
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Deanna,
+				Icon				=	NPCDeanna,
+				WorldStaticModel	=	Deanna,
+			}
+
+/**********************************************************/
+
+	/******* DEL *******/
+		item Del
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Del,
+				Icon				=	NPCDel,
+				WorldStaticModel	=	Del,
+			}
+
+/**********************************************************/
+
+	/******* DEMI MCINTOSH *******/
+		item Demi
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Demi McIntosh,
+				Icon				=	NPCDemi,
+				WorldStaticModel	=	Demi,
+			}
+
+/**********************************************************/
+
+	/******* DIAMOND DOG *******/
+		item DiamondDog
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Diamond Dog,
+				Icon				=	NPCDiamondDog,
+				WorldStaticModel	=	DiamondDog,
+			}
+
+		item DiamondDog2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Diamond Dog,
+				Icon				=	NPCDiamondDog2,
+				WorldStaticModel	=	DiamondDog2,
+			}
+
+		item DiamondDog3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Diamond Dog,
+				Icon				=	NPCDiamondDog3,
+				WorldStaticModel	=	DiamondDog3,
+			}
+
+			item DiamondDog4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Diamond Dog,
+				Icon				=	NPCDiamondDog4,
+				WorldStaticModel	=	DiamondDog4,
+			}
+
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				DiamondDog2/DiamondDog3/DiamondDog4,
+				Result:DiamondDog,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Sledgehammer
+			{
+				keep AdminKey,
+				DiamondDog/DiamondDog3/DiamondDog4,
+				Result:DiamondDog2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Pistol
+			{
+				keep AdminKey,
+				DiamondDog/DiamondDog2/DiamondDog4,
+				Result:DiamondDog3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Shotgun
+			{
+				keep AdminKey,
+				DiamondDog/DiamondDog2/DiamondDog3,
+				Result:DiamondDog4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DIYOR TURSUNOV *******/
+		item Diyor
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Diyor Tursunov,
+				Icon				=	NPCDiyor,
+				WorldStaticModel	=	Diyor,
+			}
+
+/**********************************************************/
+
+	/******* DON JONES *******/
+		item Don
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Don Jones,
+				Icon				=	NPCDon,
+				WorldStaticModel	=	Don,
+			}
+
+/**********************************************************/
+
+	/******* DR. CHOP *******/
+		item Chop
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dr. Chop,
+				Icon				=	NPCChop,
+				WorldStaticModel	=	Chop,
+			}
+
+		item Chop2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dr. Chop,
+				Icon				=	NPCChop2,
+				WorldStaticModel	=	Chop2,
+			}
+
+		item Chop3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dr. Chop,
+				Icon				=	NPCChop3,
+				WorldStaticModel	=	Chop3,
+			}
+
+		recipe POSE: Hunch Over
+			{
+				keep AdminKey,
+				Chop2/Chop3,
+				Result:Chop,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Sit Down
+			{
+				keep AdminKey,
+				Chop/Chop3,
+				Result:Chop2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lay Down
+			{
+				keep AdminKey,
+				Chop/Chop2,
+				Result:Chop3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* DUKE HELMER *******/
+		item Duke
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Duke Helmer,
+				Icon				=	NPCDuke,
+				WorldStaticModel	=	Duke,
+			}
+
+/**********************************************************/
+
+	/******* DWIGHT KILEAN *******/
+		item Kilean
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Dwight Kilean,
+				Icon				=	NPCKilean,
+				WorldStaticModel	=	Kilean,
+			}
+
+/**********************************************************/
+
+	/******* EDDIE ZIELINSKI *******/
+		item Eddie
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Eddie Zielinski,
+				Icon				=	NPCEddie,
+				WorldStaticModel	=	Eddie,
+			}
+
+/**********************************************************/
+
+	/******* ELIZABETH BATTLE *******/
+		item Elizabeth
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Elizabeth Battle,
+				Icon				=	NPCElizabeth,
+				WorldStaticModel	=	Elizabeth,
+			}
+
+/**********************************************************/
+
+	/******* EMILY LAIDLAW *******/
+		item Emily
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Emily Laidlaw,
+				Icon				=	NPCEmily,
+				WorldStaticModel	=	Emily,
+			}
+
+/**********************************************************/
+
+	/******* EUGENE COLLINS *******/
+		item Eugene
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Eugene Collins,
+				Icon				=	NPCEugene,
+				WorldStaticModel	=	Eugene,
+			}
+
+/**********************************************************/
+
+	/******* EZEKIEL *******/
+		item Ezekiel
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Ezekiel,
+				Icon				=	NPCEzekiel,
+				WorldStaticModel	=	Ezekiel,
+			}
+
+/**********************************************************/
+
+	/******* FRANCIS HOOD *******/
+		item Francis
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Francis Hood,
+				Icon				=	NPCFrancis,
+				WorldStaticModel	=	Francis,
+			}
+
+/**********************************************************/
+
+	/******* FRANCO JOY *******/
+		item Franco
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Franco Joy,
+				Icon				=	NPCFranco,
+				WorldStaticModel	=	Franco,
+			}
+
+/**********************************************************/
+
+	/******* GABRIEL BARTON *******/
+		item Gabriel
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Gabriel Barton,
+				Icon				=	NPCGabriel,
+				WorldStaticModel	=	Gabriel,
+			}
+			
+/**********************************************************/
+
+	/******* GERALD BECHET *******/
+		item Gerald
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Gerald Bechet,
+				Icon				=	NPCGerald,
+				WorldStaticModel	=	Gerald,
+			}
+
+/**********************************************************/
+
+	/******* GREG FOSTER *******/
+		item Greg
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Greg Foster,
+				Icon				=	NPCGreg,
+				WorldStaticModel	=	Greg,
+			}
+
+/**********************************************************/
+
+	/******* GRIFF DUFFY *******/
+		item Griff
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Griff Duffy,
+				Icon				=	NPCGriff,
+				WorldStaticModel	=	Griff,
+			}
+
+		item Griff2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Griff Duffy,
+				Icon				=	NPCGriff2,
+				WorldStaticModel	=	Griff2,
+			}
+
+		item Griff3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Griff Duffy,
+				Icon				=	NPCGriff3,
+				WorldStaticModel	=	Griff3,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				Griff2/Griff3,
+				Result:Griff,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Sit Down
+			{
+				keep AdminKey,
+				Griff/Griff3,
+				Result:Griff2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Weapon
+			{
+				keep AdminKey,
+				Griff/Griff2,
+				Result:Griff3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* HANA TAKEUCHI *******/
+		item Hana
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Hana Takeuchi,
+				Icon				=	NPCHana,
+				WorldStaticModel	=	Hana,
+			}
+
+/**********************************************************/
+
+	/******* HENRY CLANCY *******/
+		item Henry
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Henry Clancy,
+				Icon				=	NPCHenry,
+				WorldStaticModel	=	Henry,
+			}
+
+/**********************************************************/
+
+	/******* JACK BEVIS *******/
+		item Bevis
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=	NPC, 
+				DisplayName			=	Jack Bevis,
+				Icon				=	NPCBevis,
+				WorldStaticModel	=	Bevis,
+			}
+
+/**********************************************************/
+
+	/******* JARED VAUGERSON *******/
+		item Jared
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Jared Vaugerson,
+				Icon				=	NPCJared,
+				WorldStaticModel	=	Jared,
+			}
+
+/**********************************************************/
+
+	/******* JASON SELBY *******/
+		item Selby
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Jason Selby,
+				Icon				=	NPCSelby,
+				WorldStaticModel	=	Selby,
+			}
+
+/**********************************************************/
+
+	/******* JAVIER NASSIM ABDESSALAM *******/
+		item Javier
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Javier Nassim Abdessalam,
+				Icon				=	NPCJavier,
+				WorldStaticModel	=	Javier,
+			}
+
+/**********************************************************/
+
+	/******* JOHN *******/
+		item John
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	John,
+				Icon				=	NPCJohn,
+				WorldStaticModel	=	John,
+			}
+
+/**********************************************************/
+
+	/******* JUNIOR KILEAN *******/
+		item Junior
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Junior Kilean,
+				Icon				=	NPCJunior,
+				WorldStaticModel	=	Junior,
+			}
+
+/**********************************************************/
+
+	/******* KELLY *******/
+		item Kelly
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory		=	NPC, 
+				DisplayName			=	Kelly,
+				Icon				=	NPCKelly,
+				WorldStaticModel	=	Kelly,
+			}
+
+/**********************************************************/
+
+	/******* LARUE MONROE *******/
+		item Larue
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Larue Monroe,
+				Icon				=	NPCLarue,
+				WorldStaticModel	=	Larue,
+			}
+
+/**********************************************************/
+
+	/******* LAWRENCE ORMAN *******/
+		item Orman
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Lawrence Orman,
+				Icon				=	NPCOrman,
+				WorldStaticModel	=	Orman,
+			}
+
+		item Orman2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Lawrence Orman,
+				Icon				=	NPCOrman2,
+				WorldStaticModel	=	Orman2,
+			}
+
+		recipe POSE: Stand
+			{
+				keep AdminKey,
+				Orman2,
+				Result:Orman,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Orman,
+				Result:Orman2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* LECLAIR MERCIER *******/
+		item Leclair
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Leclair Mercier,
+				Icon				=	NPCLeclair,
+				WorldStaticModel	=	Leclair,
+			}
+
+/**********************************************************/
+
+	/******* LOUIS GOMEZ *******/
+		item Gomez
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Louis Gomez,
+				Icon				=	NPCGomez,
+				WorldStaticModel	=	Gomez,
+			}
+
+/**********************************************************/
+
+	/******* MALCOLM BROOKS *******/
+		item Malcolm
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Brooks,
+				Icon				=	NPCMalcolm,
+				WorldStaticModel	=	Malcolm,
+			}
+
+/**********************************************************/
+
+	/******* MALCOLM CARRADINE *******/
+		item Mal
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal,
+				WorldStaticModel	=	Mal,
+			}
+
+		item Mal2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal2,
+				WorldStaticModel	=	Mal2,
+			}
+
+		item Mal3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal3,
+				WorldStaticModel	=	Mal3,
+			}
+
+		item Mal4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal4,
+				WorldStaticModel	=	Mal4,
+			}
+
+		item Mal5
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal5,
+				WorldStaticModel	=	Mal5,
+			}
+
+		item Mal6
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Malcolm Carradine,
+				Icon				=	NPCMal6,
+				WorldStaticModel	=	Mal6,
+			}
+
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				Mal2/Mal3/Mal4/Mal5/Mal6,
+				Result:Mal,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle (Lay Down)
+			{
+				keep AdminKey,
+				Mal/Mal3/Mal4/Mal5/Mal6,
+				Result:Mal2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Rifle Over Shoulders
+			{
+				keep AdminKey,
+				Mal/Mal2/Mal4/Mal5/Mal6,
+				Result:Mal3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Pistol
+			{
+				keep AdminKey,
+				Mal/Mal2/Mal3/Mal5/Mal6,
+				Result:Mal4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Pistol (Disguise)
+			{
+				keep AdminKey,
+				Mal/Mal2/Mal3/Mal4/Mal6,
+				Result:Mal5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Rifle Over Shoulders (Disguise)
+			{
+				keep AdminKey,
+				Mal/Mal2/Mal3/Mal4/Mal5,
+				Result:Mal6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+/**********************************************************/
+
+	/******* MANSUKH RAMACHANDRAN *******/
+		item Mansukh
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Mansukh Ramachandran,
+				Icon				=	NPCMansukh,
+				WorldStaticModel	=	Mansukh,
+			}
+
+/**********************************************************/
+
+	/******* MARCUS BACZEK *******/
+		item Baczek
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Marcus Baczek,
+				Icon				=	NPCBaczek,
+				WorldStaticModel	=	Baczek,
+			}
+
+/**********************************************************/
+
+	/******* MARKUS BRANDT *******/
+		item Brandt
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Markus Brandt,
+				Icon				=	NPCBrandt,
+				WorldStaticModel	=	Brandt,
+			}
+
+		item Brandt2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Markus Brandt,
+				Icon				=	NPCBrandt2,
+				WorldStaticModel	=	Brandt2,
+			}
+
+		item Brandt3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Markus Brandt,
+				Icon				=	NPCBrandt3,
+				WorldStaticModel	=	Brandt3,
+			}
+
+		item Brandt4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Markus Brandt,
+				Icon				=	NPCBrandt4,
+				WorldStaticModel	=	Brandt4,
+			}
+
+		item Brandt5
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Markus Brandt,
+				Icon				=	NPCBrandt5,
+				WorldStaticModel	=	Brandt5,
+			}
+
+		recipe POSE: Reach for Pistol
+			{
+				keep AdminKey,
+				Brandt2/Brandt3/Brandt4/Brandt5,
+				Result:Brandt,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Shotgun
+			{
+				keep AdminKey,
+				Brandt/Brandt3/Brandt4/Brandt5,
+				Result:Brandt2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Shotgun
+			{
+				keep AdminKey,
+				Brandt/Brandt2/Brandt4/Brandt5,
+				Result:Brandt3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Brandt/Brandt2/Brandt3/Brandt5,
+				Result:Brandt4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Cross Arms Over Chest
+			{
+				keep AdminKey,
+				Brandt/Brandt2/Brandt3/Brandt4,
+				Result:Brandt5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MARLENE *******/
+		item Marlene
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Marlene,
+				Icon				=	NPCMarlene,
+				WorldStaticModel	=	Marlene,
+			}
+
+/**********************************************************/
+
+	/******* MARSHALL GRANT *******/
+		item Marshall
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Marshall Grant,
+				Icon				=	NPCMarshall,
+				WorldStaticModel	=	Marshall,
+			}
+
+/**********************************************************/
+
+	/******* MARVIN FINDLAY *******/
+		item Marvin
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Marvin Findlay,
+				Icon				=	NPCMarvin,
+				WorldStaticModel	=	Marvin,
+			}
+
+/**********************************************************/
+
+	/******* MATIAS BRÜHL *******/
+		item Matias
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Matias Brühl,
+				Icon				=	NPCMatias,
+				WorldStaticModel	=	Matias,
+			}
+
+/**********************************************************/
+
+	/******* MELANIE GREENFIELD *******/
+		item Melanie
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Melanie Greenfield,
+				Icon				=	NPCMelanie,
+				WorldStaticModel	=	Melanie,
+			}
+
+		item Melanie2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Melanie Greenfield,
+				Icon				=	NPCMelanie2,
+				WorldStaticModel	=	Melanie2,
+			}
+
+		item Melanie3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Melanie Greenfield,
+				Icon				=	NPCMelanie3,
+				WorldStaticModel	=	Melanie3,
+			}
+
+		recipe POSE: Cross Arms (Leaning)
+			{
+				keep AdminKey,
+				Melanie2/Melanie3,
+				Result:Melanie,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hand on Hip
+			{
+				keep AdminKey,
+				Melanie/Melanie3,
+				Result:Melanie2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Melanie/Melanie2,
+				Result:Melanie3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* MELISSA NELSON *******/
+		item Missy
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Melissa Nelson,
+				Icon				=	NPCMissy,
+				WorldStaticModel	=	Missy,
+			}
+			
+/**********************************************************/
+
+	/******* MILLER WARDWELL *******/
+		item Miller
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Miller Wardwell,
+				Icon				=	NPCMiller,
+				WorldStaticModel	=	Miller,
+			}
+
+/**********************************************************/
+
+	/******* MIRANDA WARD *******/
+		item Ward
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Miranda Ward,
+				Icon				=	NPCWard,
+				WorldStaticModel	=	Ward,
+			}
+
+/**********************************************************/
+
+	/******* MOCKINGBIRD *******/
+		item Mockingbird
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Mockingbird,
+				Icon				=	NPCMockingbird,
+				WorldStaticModel	=	Mockingbird,
+			}
+
+/**********************************************************/
+
+	/******* MOLLY *******/
+		item Molly
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Molly,
+				Icon				=	NPCMolly,
+				WorldStaticModel	=	Molly,
+			}
+
+/**********************************************************/
+
+	/******* MORGAN BATTLE *******/
+		item Morgan
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Morgan Battle,
+				Icon				=	NPCMorgan,
+				WorldStaticModel	=	Morgan,
+			}
+
+/**********************************************************/
+
+	/******* NATHAN COLEMAN *******/
+		item Nathan
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Nathan Coleman,
+				Icon				=	NPCNathan,
+				WorldStaticModel	=	Nathan,
+			}
+
+/**********************************************************/
+
+	/******* RACHEL BEVIS *******/
+		item Rachel
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Rachel Bevis,
+				Icon				=	NPCRachel,
+				WorldStaticModel	=	Rachel,
+			}
+
+/**********************************************************/
+
+	/******* RAYMOND MCCORMICK *******/
+		item Raymond
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Raymond McCormick,
+				Icon				=	NPCRaymond,
+				WorldStaticModel	=	Raymond,
+			}
+
+/**********************************************************/
+
+	/******* RENE ACKERMAN *******/
+		item Rene
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Rene Ackerman,
+				Icon				=	NPCRene,
+				WorldStaticModel	=	Rene,
+			}
+
+/**********************************************************/
+
+	/******* RHEA VARNADO *******/
+		item Rhea
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Rhea Varnado,
+				Icon				=	NPCRhea,
+				WorldStaticModel	=	Rhea,
+			}
+
+/**********************************************************/
+
+	/******* ROBERT *******/
+		item Robert
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Robert,
+				Icon				=	NPCRobert,
+				WorldStaticModel	=	Robert,
+			}
+
+/**********************************************************/
+
+	/******* SAM *******/
+		item Sam
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sam,
+				Icon				=	NPCSam,
+				WorldStaticModel	=	Sam,
+			}
+
+/**********************************************************/
+
+	/******* SARAH HANNING *******/
+		item Sarah
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory	 	=	NPC, 
+				DisplayName			=	Sarah Hanning,
+				Icon				=	NPCSarah,
+				WorldStaticModel	=	Sarah,
+			}
+
+/**********************************************************/
+
+	/******* SHARON KRAVITZ *******/
+		item Sharon
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sharon Kravitz,
+				Icon				=	NPCSharon,
+				WorldStaticModel	=	Sharon,
+			}
+
+/**********************************************************/
+
+	/******* SID *******/
+		item Sid
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sid,
+				Icon				=	NPCSid,
+				WorldStaticModel	=	Sid,
+			}
+
+		item Sid2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sid,
+				Icon				=	NPCSid2,
+				WorldStaticModel	=	Sid2,
+			}
+
+		item Sid3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sid,
+				Icon				=	NPCSid3,
+				WorldStaticModel	=	Sid3,
+			}
+
+		item Sid4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Sid,
+				Icon				=	NPCSid4,
+				WorldStaticModel	=	Sid4,
+			}
+
+		recipe POSE: Hands in Pockets
+			{
+				keep AdminKey,
+				Sid2/Sid3/Sid4,
+				Result:Sid,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Wave
+			{
+				keep AdminKey,
+				Sid/Sid3/Sid4,
+				Result:Sid2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Sid/Sid2/Sid4,
+				Result:Sid3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lay Down
+			{
+				keep AdminKey,
+				Sid/Sid2/Sid3,
+				Result:Sid4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* STANISLAV BEZRUKOV *******/
+		item Bezrukov
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stanislav Bezrukov,
+				Icon				=	NPCBezrukov,
+				WorldStaticModel	=	Bezrukov,
+			}
+
+/**********************************************************/
+
+	/******* STELLA TAKEUCHI *******/
+		item Stella
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stella Takeuchi,
+				Icon				=	NPCStella,
+				WorldStaticModel	=	Stella,
+			}
+
+/**********************************************************/
+
+	/******* STEPHEN DRUMMER *******/
+		item Drummer
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Drummer,
+				Icon				=	NPCDrummer,
+				WorldStaticModel	=	Drummer,
+			}
+
+/**********************************************************/
+
+	/******* STEPHEN FLETCHER *******/
+		item Fletcher
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Fletcher,
+				Icon				=	NPCFletcher,
+				WorldStaticModel	=	Fletcher,
+			}
+
+		item Fletcher2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Fletcher,
+				Icon				=	NPCFletcher2,
+				WorldStaticModel	=	Fletcher2,
+			}
+
+		item Fletcher3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Fletcher,
+				Icon				=	NPCFletcher3,
+				WorldStaticModel	=	Fletcher4,
+			}
+
+		item Fletcher4
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Fletcher,
+				Icon				=	NPCFletcher4,
+				WorldStaticModel	=	Fletcher4,
+			}
+
+		item Fletcher5
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Stephen Fletcher,
+				Icon				=	NPCFletcher5,
+				WorldStaticModel	=	Fletcher5,
+			}
+
+		recipe POSE: Stand
+			{
+				keep AdminKey,
+				Fletcher2/Fletcher3/Fletcher4/Fletcher5,
+				Result:Fletcher,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hand on Hip
+			{
+				keep AdminKey,
+				Fletcher/Fletcher3/Fletcher4/Fletcher5,
+				Result:Fletcher2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				Fletcher/Fletcher2/Fletcher4/Fletcher5,
+				Result:Fletcher3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Knife
+			{
+				keep AdminKey,
+				Fletcher/Fletcher2/Fletcher3/Fletcher5,
+				Result:Fletcher4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Shotgun
+			{
+				keep AdminKey,
+				Fletcher/Fletcher2/Fletcher3/Fletcher4,
+				Result:Fletcher5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TARA GARLAND *******/
+		item Tara
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tara Garland,
+				Icon				=	NPCTara,
+				WorldStaticModel	=	Tara,
+			}
+
+/**********************************************************/
+
+	/******* THE MAN IN RED *******/
+		item TMIR
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	The Man In Red,
+				Icon				=	NPCTMIR,
+				WorldStaticModel	=	TMIR,
+			}
+
+		item TMIR2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	The Man In Red,
+				Icon				=	NPCTMIR2,
+				WorldStaticModel	=	TMIR2,
+			}
+
+		item TMIR3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	The Man In Red,
+				Icon				=	NPCTMIR3,
+				WorldStaticModel	=	TMIR3,
+			}
+
+/**********************************************************/
+
+	/******* THOM HANSCOM *******/
+		item Thom
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Thom Hanscom,
+				Icon				=	NPCThom,
+				WorldStaticModel	=	Thom,
+			}
+
+		item Thom2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Thom Hanscom,
+				Icon				=	NPCThom2,
+				WorldStaticModel	=	Thom2,
+			}
+
+		item Thom3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Thom Hanscom,
+				Icon				=	NPCThom3,
+				WorldStaticModel	=	Thom3,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				Thom2/Thom3,
+				Result:Thom,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Shovel
+			{
+				keep AdminKey,
+				Thom/Thom3,
+				Result:Thom2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Pistol
+			{
+				keep AdminKey,
+				Thom/Thom2,
+				Result:Thom3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TSAVEYO *******/
+		item Tsaveyo
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tsaveyo,
+				Icon				=	NPCTsaveyo,
+				WorldStaticModel	=	Tsaveyo,
+			}
+
+		item Tsaveyo2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tsaveyo,
+				Icon				=	NPCTsaveyo2,
+				WorldStaticModel	=	Tsaveyo2,
+			}
+
+		item Tsaveyo3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tsaveyo,
+				Icon				=	NPCTsaveyo3,
+				WorldStaticModel	=	Tsaveyo3,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				Tsaveyo2/Tsaveyo3,
+				Result:Tsaveyo,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+			
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				Tsaveyo/Tsaveyo3,
+				Result:Tsaveyo2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Weapon
+			{
+				keep AdminKey,
+				Tsaveyo/Tsaveyo2,
+				Result:Tsaveyo3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* TRUMAN PARKER *******/
+		item Truman
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Truman Parker,
+				Icon				=	NPCTruman,
+				WorldStaticModel	=	Truman,
+			}
+
+/**********************************************************/
+
+	/******* TUMAS *******/
+		item Tumas
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tümas,
+				Icon				=	NPCCrowMother,
+				WorldStaticModel	=	Tumas,
+			}
+
+/**********************************************************/
+
+	/******* TYRELL MASON *******/
+		item Tyrell
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Tyrell Mason,
+				Icon				=	NPCTyrell,
+				WorldStaticModel	=	Tyrell,
+			}
+
+/**********************************************************/
+
+	/******* VIRGIL BATTLE *******/
+		item Virgil
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Virgil Battle,
+				Icon				=	NPCVirgil,
+				WorldStaticModel	=	Virgil,
+			}
+
+/**********************************************************/
+
+	/******* WAR PIG *******/
+		item WarPig
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	War Pig,
+				Icon				=	NPCWarPig,
+				WorldStaticModel	=	WarPig,
+			}
+
+/**********************************************************/
+
+	/******* WENDY KANG *******/
+		item Wendy
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Wendy Kang,
+				Icon				=	NPCWendy,
+				WorldStaticModel	=	Wendy,
+			}
+
+/**********************************************************/
+
+	/******* WILL FISHER *******/
+		item Will
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Will Fisher,
+				Icon				=	NPCWill,
+				WorldStaticModel	=	Will,
+			}
+
+/**********************************************************/
+
+	/******* WILLIAM KOZUCH *******/
+		item Kozuch
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	William Kozuch,
+				Icon				=	NPCKozuch,
+				WorldStaticModel	=	Kozuch,
+			}
+
+/**********************************************************/
+
+	/******* LESLIE WINTON *******/
+		item Winton
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Leslie Winton,
+				Icon				=	NPCWinton,
+				WorldStaticModel	=	Winton,
+			}
+
+/**********************************************************/
+
+	/******* ZIGGY *******/
+		item Ziggy
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Ziggy,
+				Icon				=	NPCZiggy,
+				WorldStaticModel	=	Ziggy,
+			}
+
+		item Ziggy2
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Ziggy,
+				Icon				=	NPCZiggy2,
+				WorldStaticModel	=	Ziggy2,
+			}
+
+		item Ziggy3
+			{
+				WeightReduction		=	100,
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Ziggy,
+				Icon				=	NPCZiggy3,
+				WorldStaticModel	=	Ziggy3,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				Ziggy2/Ziggy3,
+				Result:Ziggy,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Pistol
+			{
+				keep AdminKey,
+				Ziggy/Ziggy3,
+				Result:Ziggy2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Crouch with Pistol
+			{
+				keep AdminKey,
+				Ziggy/Ziggy2,
+				Result:Ziggy3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/************************ GENERIC NPCS ************************/
+
+	/******* FEMALE BRIGHTON SOLDIER 1 *******/
+		item BrightonSoldierFemale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Brighton Soldier,
+				Icon				=	NPCBrightonSoldierFemale1,
+				WorldStaticModel	=	BrightonSoldierFemale1,
+			}
+
+	/******* FEMALE BRIGHTON SOLDIER 2 *******/
+		item BrightonSoldierFemale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Brighton Soldier,
+				Icon				=	NPCBrightonSoldierFemale2,
+				WorldStaticModel	=	BrightonSoldierFemale2,
+			}
+
+/**********************************************************/
+
+	/******* MALE BRIGHTON SOLDIER 1 *******/
+		item BrightonSoldierMale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Brighton Soldier,
+				Icon				=	NPCBrightonSoldierMale1,
+				WorldStaticModel	=	BrightonSoldierMale1,
+			}
+
+	/******* MALE BRIGHTON SOLDIER 2 *******/
+		item BrightonSoldierMale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Brighton Soldier,
+				Icon				=	NPCBrightonSoldierMale2,
+				WorldStaticModel	=	BrightonSoldierMale2,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE CROW 1 *******/
+		item CrowFemale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Crow,
+				Icon				=	NPCCrowFemale1,
+				WorldStaticModel	=	CrowFemale1,
+			}
+			
+	/******* FEMALE CROW 2 *******/
+		item CrowFemale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Crow,
+				Icon				=	NPCCrowFemale2,
+				WorldStaticModel	=	CrowFemale2,
+			}
+
+/**********************************************************/
+
+	/******* MALE CROW 1 *******/
+		item CrowMale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Crow,
+				Icon				=	NPCCrowMale1,
+				WorldStaticModel	=	CrowMale1,
+			}
+
+	/******* MALE CROW 2 *******/
+		item CrowMale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Crow,
+				Icon				=	NPCCrowMale2,
+				WorldStaticModel	=	CrowMale2,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE CULTIST 1 *******/
+		item CultistFemale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Cultist,
+				Icon				=	NPCCultistFemale1,
+				WorldStaticModel	=	CultistFemale1,
+			}
+
+	/******* FEMALE CULTIST 2 *******/
+		item CultistFemale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Cultist,
+				Icon				=	NPCCultistFemale2,
+				WorldStaticModel	=	CultistFemale2,
+			}
+
+/**********************************************************/
+
+	/******* MALE CULTIST 1 *******/
+		item CultistMale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Cultist,
+				Icon				=	NPCCultistMale1,
+				WorldStaticModel	=	CultistMale1,
+			}
+
+	/******* MALE CULTIST 2 *******/
+		item CultistMale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Cultist,
+				Icon				=	NPCCultistMale2,
+				WorldStaticModel	=	CultistMale2,
+			}
+
+	/******* MALE CULTIST 3 *******/
+		item CultistMale3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Cultist,
+				Icon				=	NPCCultistMale3,
+				WorldStaticModel	=	CultistMale3,
+			}
+
+	/******* MALE CULTIST 4 *******/
+		item CultistMale4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Cultist,
+				Icon				=	NPCCultistMale4,
+				WorldStaticModel	=	CultistMale4,
+			}
+
+/**********************************************************/
+
+	/******* GROUP SIX OPERATOR 1 *******/
+		item G6Operator1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Group Six Operator,
+				Icon				=	NPCG6Operator1,
+				WorldStaticModel	=	G6Operator1,
+			}
+
+	/******* GROUP SIX OPERATOR 2 *******/
+		item G6Operator2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Group Six Operator,
+				Icon				=	NPCG6Operator2,
+				WorldStaticModel	=	G6Operator2,
+			}
+
+/**********************************************************/
+
+	/******* GROUP SIX SECURITY OFFICER 1 *******/
+		item G6SecurityOfficer1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Group Six Security Officer,
+				Icon				=	NPCG6SecurityOfficer1,
+				WorldStaticModel	=	G6SecurityOfficer1,
+			}
+
+	/******* GROUP SIX SECURITY OFFICER 2 *******/
+		item G6SecurityOfficer2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Group Six Security Officer,
+				Icon				=	NPCG6SecurityOfficer2,
+				WorldStaticModel	=	G6SecurityOfficer2,
+			}
+
+/**********************************************************/
+
+	/******* FEMALE MILITIA MEMBER 1 *******/
+		item MilitiaFemale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Militia Member,
+				Icon				=	NPCMilitiaFemale1,
+				WorldStaticModel	=	MilitiaFemale1,
+			}
+
+	/******* FEMALE MILITIA MEMBER 2 *******/
+		item MilitiaFemale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Militia Member,
+				Icon				=	NPCMilitiaFemale2,
+				WorldStaticModel	=	MilitiaFemale2,
+			}
+
+/**********************************************************/
+
+	/******* MALE MILITIA MEMBER 1 *******/
+		item MilitiaMale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Militia Member,
+				Icon				=	NPCMilitiaMale1,
+				WorldStaticModel	=	MilitiaMale1,
+			}
+
+	/******* MALE MILITIA MEMBER 2 *******/
+		item MilitiaMale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Militia Member,
+				Icon				=	NPCMilitiaMale2,
+				WorldStaticModel	=	MilitiaMale2,
+			}
+
+	/******* MALE MILITIA MEMBER 3 *******/
+		item MilitiaMale3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Militia Member,
+				Icon				=	NPCMilitiaMale3,
+				WorldStaticModel	=	MilitiaMale3,
+			}
+			
+/**********************************************************/
+
+	/******* FEMALE MILLER MOOK 1 *******/
+		item BanditFemale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Miller Mook,
+				Icon				=	NPCBanditFemale1,
+				WorldStaticModel	=	BanditFemale1,
+			}
+
+	/******* FEMALE MILLER MOOK 2 *******/
+		item BanditFemale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Miller Mook,
+				Icon				=	NPCBanditFemale2,
+				WorldStaticModel	=	BanditFemale2,
+			}
+
+	/******* FEMALE MILLER MOOK 3 *******/
+		item BanditFemale3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Miller Mook,
+				Icon				=	NPCBanditFemale3,
+				WorldStaticModel	=	BanditFemale3,
+			}
+
+/**********************************************************/
+
+	/******* MALE MILLER MOOK 1 *******/
+		item BanditMale1
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Miller Mook,
+				Icon				=	NPCBanditMale1,
+				WorldStaticModel	=	BanditMale1,
+			}
+
+	/******* MALE MILLER MOOK 2 *******/
+		item BanditMale2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Miller Mook,
+				Icon				=	NPCBanditMale2,
+				WorldStaticModel	=	BanditMale2,
+			}
+
+	/******* MALE MILLER MOOK 3 *******/
+		item BanditMale3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Miller Mook,
+				Icon				=	NPCBanditMale3,
+				WorldStaticModel	=	BanditMale3,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER A *******/
+		item RangerGenericFemaleA
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA,
+				WorldStaticModel	=	RangerGenericFemaleA,
+			}
+
+		item RangerGenericFemaleA2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA2,
+				WorldStaticModel	=	RangerGenericFemaleA2,
+			}
+
+		item RangerGenericFemaleA3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA3,
+				WorldStaticModel	=	RangerGenericFemaleA3,
+			}
+
+		item RangerGenericFemaleA4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA4,
+				WorldStaticModel	=	RangerGenericFemaleA4,
+			}
+
+		item RangerGenericFemaleA5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA5,
+				WorldStaticModel	=	RangerGenericFemaleA5,
+			}
+
+		item RangerGenericFemaleA6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleA6,
+				WorldStaticModel	=	RangerGenericFemaleA6,
+			}
+
+		recipe POSE: Stand Straight
+			{
+				keep AdminKey,
+				RangerGenericFemaleA2/RangerGenericFemaleA3/RangerGenericFemaleA4/RangerGenericFemaleA5/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleA,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA3/RangerGenericFemaleA4/RangerGenericFemaleA5/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleA2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle (Kneeling)
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA2/RangerGenericFemaleA4/RangerGenericFemaleA5/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleA3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA2/RangerGenericFemaleA3/RangerGenericFemaleA5/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleA4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Knife
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA2/RangerGenericFemaleA3/RangerGenericFemaleA4/RangerGenericFemaleA6,
+				Result:RangerGenericFemaleA5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericFemaleA/RangerGenericFemaleA2/RangerGenericFemaleA3/RangerGenericFemaleA4/RangerGenericFemaleA5,
+				Result:RangerGenericFemaleA6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER B *******/
+		item RangerGenericFemaleB
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB,
+				WorldStaticModel	=	RangerGenericFemaleB,
+			}
+
+		item RangerGenericFemaleB2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB2,
+				WorldStaticModel	=	RangerGenericFemaleB2,
+			}
+
+		item RangerGenericFemaleB3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB3,
+				WorldStaticModel	=	RangerGenericFemaleB3,
+			}
+
+		item RangerGenericFemaleB4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB4,
+				WorldStaticModel	=	RangerGenericFemaleB4,
+			}
+
+		item RangerGenericFemaleB5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB5,
+				WorldStaticModel	=	RangerGenericFemaleB5,
+			}
+
+		item RangerGenericFemaleB6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleB6,
+				WorldStaticModel	=	RangerGenericFemaleB6,
+			}
+
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				RangerGenericFemaleB2/RangerGenericFemaleB3/RangerGenericFemaleB4/RangerGenericFemaleB5/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleB,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB3/RangerGenericFemaleB4/RangerGenericFemaleB5/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleB2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB2/RangerGenericFemaleB4/RangerGenericFemaleB5/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleB3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB2/RangerGenericFemaleB3/RangerGenericFemaleB5/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleB4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Knife
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB2/RangerGenericFemaleB3/RangerGenericFemaleB4/RangerGenericFemaleB6,
+				Result:RangerGenericFemaleB5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericFemaleB/RangerGenericFemaleB2/RangerGenericFemaleB3/RangerGenericFemaleB4/RangerGenericFemaleB5,
+				Result:RangerGenericFemaleB6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER C *******/
+		item RangerGenericFemaleC
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC,
+				WorldStaticModel	=	RangerGenericFemaleC,
+			}
+
+		item RangerGenericFemaleC2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC2,
+				WorldStaticModel	=	RangerGenericFemaleC2,
+			}
+
+		item RangerGenericFemaleC3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC3,
+				WorldStaticModel	=	RangerGenericFemaleC3,
+			}
+
+		item RangerGenericFemaleC4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC4,
+				WorldStaticModel	=	RangerGenericFemaleC4,
+			}
+
+		item RangerGenericFemaleC5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC5,
+				WorldStaticModel	=	RangerGenericFemaleC5,
+			}
+
+		item RangerGenericFemaleC6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleC6,
+				WorldStaticModel	=	RangerGenericFemaleC6,
+			}
+
+		recipe POSE: Hold Head in Hand
+			{
+				keep AdminKey,
+				RangerGenericFemaleC2/RangerGenericFemaleC3/RangerGenericFemaleC4/RangerGenericFemaleC5/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleC,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC3/RangerGenericFemaleC4/RangerGenericFemaleC5/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleC2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC2/RangerGenericFemaleC4/RangerGenericFemaleC5/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleC3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC2/RangerGenericFemaleC3/RangerGenericFemaleC5/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleC4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Reach for Pistol
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC2/RangerGenericFemaleC3/RangerGenericFemaleC4/RangerGenericFemaleC6,
+				Result:RangerGenericFemaleC5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean to Side
+			{
+				keep AdminKey,
+				RangerGenericFemaleC/RangerGenericFemaleC2/RangerGenericFemaleC3/RangerGenericFemaleC4/RangerGenericFemaleC5,
+				Result:RangerGenericFemaleC6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC FEMALE COALITION RANGER D *******/
+		item RangerGenericFemaleD
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD,
+				WorldStaticModel	=	RangerGenericFemaleD,
+			}
+
+		item RangerGenericFemaleD2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD2,
+				WorldStaticModel	=	RangerGenericFemaleD2,
+			}
+
+		item RangerGenericFemaleD3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD3,
+				WorldStaticModel	=	RangerGenericFemaleD3,
+			}
+
+		item RangerGenericFemaleD4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD4,
+				WorldStaticModel	=	RangerGenericFemaleD4,
+			}
+
+		item RangerGenericFemaleD5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD5,
+				WorldStaticModel	=	RangerGenericFemaleD5,
+			}
+
+		item RangerGenericFemaleD6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Female Coalition Ranger,
+				Icon				=	NPCRangerGenericFemaleD6,
+				WorldStaticModel	=	RangerGenericFemaleD6,
+			}
+
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				RangerGenericFemaleD2/RangerGenericFemaleD3/RangerGenericFemaleD4/RangerGenericFemaleD5/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleD,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD3/RangerGenericFemaleD4/RangerGenericFemaleD5/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleD2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD2/RangerGenericFemaleD4/RangerGenericFemaleD5/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleD3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD2/RangerGenericFemaleD3/RangerGenericFemaleD5/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleD4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Knife
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD2/RangerGenericFemaleD3/RangerGenericFemaleD4/RangerGenericFemaleD6,
+				Result:RangerGenericFemaleD5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericFemaleD/RangerGenericFemaleD2/RangerGenericFemaleD3/RangerGenericFemaleD4/RangerGenericFemaleD5,
+				Result:RangerGenericFemaleD6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER A *******/
+		item RangerGenericMaleA
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleA,
+				WorldStaticModel	=	RangerGenericMaleA,
+			}
+
+		item RangerGenericMaleA2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleA2,
+				WorldStaticModel	=	RangerGenericMaleA2,
+			}
+
+		item RangerGenericMaleA3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleA3,
+				WorldStaticModel	=	RangerGenericMaleA3,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleA2/RangerGenericMaleA3,
+				Result:RangerGenericMaleA,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleA/RangerGenericMaleA3,
+				Result:RangerGenericMaleA2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericMaleA/RangerGenericMaleA2,
+				Result:RangerGenericMaleA3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER B *******/
+		item RangerGenericMaleB
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB,
+				WorldStaticModel	=	RangerGenericMaleB,
+			}
+
+		item RangerGenericMaleB2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB2,
+				WorldStaticModel	=	RangerGenericMaleB2,
+			}
+
+		item RangerGenericMaleB3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB3,
+				WorldStaticModel	=	RangerGenericMaleB3,
+			}
+
+		item RangerGenericMaleB4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB4,
+				WorldStaticModel	=	RangerGenericMaleB4,
+			}
+
+		item RangerGenericMaleB5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB5,
+				WorldStaticModel	=	RangerGenericMaleB5,
+			}
+
+		item RangerGenericMaleB6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleB6,
+				WorldStaticModel	=	RangerGenericMaleB6,
+			}
+
+		recipe POSE: Hands in Pockets
+			{
+				keep AdminKey,
+				RangerGenericMaleB2/RangerGenericMaleB3/RangerGenericMaleB4/RangerGenericMaleB5/RangerGenericMaleB6,
+				Result:RangerGenericMaleB,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB3/RangerGenericMaleB4/RangerGenericMaleB5/RangerGenericMaleB6,
+				Result:RangerGenericMaleB2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB2/RangerGenericMaleB4/RangerGenericMaleB5/RangerGenericMaleB6,
+				Result:RangerGenericMaleB3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB2/RangerGenericMaleB3/RangerGenericMaleB5/RangerGenericMaleB6,
+				Result:RangerGenericMaleB4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}		
+
+		recipe POSE: Raise Knife
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB2/RangerGenericMaleB3/RangerGenericMaleB4/RangerGenericMaleB6,
+				Result:RangerGenericMaleB5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}	
+
+		recipe POSE: Hold Mug
+			{
+				keep AdminKey,
+				RangerGenericMaleB/RangerGenericMaleB2/RangerGenericMaleB3/RangerGenericMaleB4/RangerGenericMaleB5,
+				Result:RangerGenericMaleB6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}	
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER C *******/
+		item RangerGenericMaleC
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC,
+				WorldStaticModel	=	RangerGenericMaleC,
+			}
+
+		item RangerGenericMaleC2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC2,
+				WorldStaticModel	=	RangerGenericMaleC2,
+			}
+
+		item RangerGenericMaleC3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC3,
+				WorldStaticModel	=	RangerGenericMaleC3,
+			}
+
+		item RangerGenericMaleC4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC4,
+				WorldStaticModel	=	RangerGenericMaleC4,
+			}
+
+		item RangerGenericMaleC5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC5,
+				WorldStaticModel	=	RangerGenericMaleC5,
+			}
+
+		item RangerGenericMaleC6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleC6,
+				WorldStaticModel	=	RangerGenericMaleC6,
+			}
+
+		recipe POSE: Cross Arms
+			{
+				keep AdminKey,
+				RangerGenericMaleC2/RangerGenericMaleC3/RangerGenericMaleC4/RangerGenericMaleC5/RangerGenericMaleC6,
+				Result:RangerGenericMaleC,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC3/RangerGenericMaleC4/RangerGenericMaleC5/RangerGenericMaleC6,
+				Result:RangerGenericMaleC2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC2/RangerGenericMaleC4/RangerGenericMaleC5/RangerGenericMaleC6,
+				Result:RangerGenericMaleC3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC2/RangerGenericMaleC3/RangerGenericMaleC5/RangerGenericMaleC6,
+				Result:RangerGenericMaleC4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Knife
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC2/RangerGenericMaleC3/RangerGenericMaleC4/RangerGenericMaleC6,
+				Result:RangerGenericMaleC5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericMaleC/RangerGenericMaleC2/RangerGenericMaleC3/RangerGenericMaleC4/RangerGenericMaleC5,
+				Result:RangerGenericMaleC6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER D *******/
+		item RangerGenericMaleD
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD,
+				WorldStaticModel	=	RangerGenericMaleD,
+			}
+
+		item RangerGenericMaleD2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD2,
+				WorldStaticModel	=	RangerGenericMaleD2,
+			}
+
+		item RangerGenericMaleD3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD3,
+				WorldStaticModel	=	RangerGenericMaleD3,
+			}
+
+		item RangerGenericMaleD4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD4,
+				WorldStaticModel	=	RangerGenericMaleD4,
+			}
+
+		item RangerGenericMaleD5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD5,
+				WorldStaticModel	=	RangerGenericMaleD5,
+			}
+
+		item RangerGenericMaleD6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleD6,
+				WorldStaticModel	=	RangerGenericMaleD6,
+			}
+
+		recipe POSE: Hand on Hip
+			{
+				keep AdminKey,
+				RangerGenericMaleD2/RangerGenericMaleD3/RangerGenericMaleD4/RangerGenericMaleD5/RangerGenericMaleD6,
+				Result:RangerGenericMaleD,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Shotgun
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD3/RangerGenericMaleD4/RangerGenericMaleD5/RangerGenericMaleD6,
+				Result:RangerGenericMaleD2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Shotgun
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD2/RangerGenericMaleD4/RangerGenericMaleD5/RangerGenericMaleD6,
+				Result:RangerGenericMaleD3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Shovel
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD2/RangerGenericMaleD3/RangerGenericMaleD5/RangerGenericMaleD6,
+				Result:RangerGenericMaleD4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD2/RangerGenericMaleD3/RangerGenericMaleD4/RangerGenericMaleD6,
+				Result:RangerGenericMaleD5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericMaleD/RangerGenericMaleD2/RangerGenericMaleD3/RangerGenericMaleD4/RangerGenericMaleD5,
+				Result:RangerGenericMaleD6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+/**********************************************************/
+
+	/******* GENERIC MALE COALITION RANGER E *******/
+		item RangerGenericMaleE
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE,
+				WorldStaticModel	=	RangerGenericMaleE,
+			}
+
+		item RangerGenericMaleE2
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE2,
+				WorldStaticModel	=	RangerGenericMaleE2,
+			}
+
+		item RangerGenericMaleE3
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE3,
+				WorldStaticModel	=	RangerGenericMaleE3,
+			}
+
+		item RangerGenericMaleE4
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE4,
+				WorldStaticModel	=	RangerGenericMaleE4,
+			}
+
+		item RangerGenericMaleE5
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE5,
+				WorldStaticModel	=	RangerGenericMaleE5,
+			}
+
+		item RangerGenericMaleE6
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE6,
+				WorldStaticModel	=	RangerGenericMaleE6,
+			}
+
+		item RangerGenericMaleE7
+			{
+				Weight				=	1.0,
+				Type				=	Container,
+				Capacity			=	5,
+				DisplayCategory 	=	NPC, 
+				DisplayName			=	Male Coalition Ranger,
+				Icon				=	NPCRangerGenericMaleE7,
+				WorldStaticModel	=	RangerGenericMaleE7,
+			}
+
+		recipe POSE: Hand on Hip
+			{
+				keep AdminKey,
+				RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleE,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Hold Rifle
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleE2,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle (Kneeling)
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleE3,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Rifle (Laying Down)
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE5/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleE4,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Aim Pistol
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE6/RangerGenericMaleE7,
+				Result:RangerGenericMaleE5,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Raise Knife
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE7,
+				Result:RangerGenericMaleE6,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+
+		recipe POSE: Lean Back
+			{
+				keep AdminKey,
+				RangerGenericMaleE/RangerGenericMaleE2/RangerGenericMaleE3/RangerGenericMaleE4/RangerGenericMaleE5/RangerGenericMaleE6,
+				Result:RangerGenericMaleE7,
+				Category:NPC,
+				IsHidden:true,Time:0.0,
+				CanBeDoneFromFloor:false,
+			}
+}

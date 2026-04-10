@@ -1,0 +1,436 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+
+/************************ MONSTER LIST ************************/
+
+	/* Abomination */
+	/* Artifact */
+	/* Behemoth */
+	/* Bolotnik */
+	/* Boomer */
+	/* CMF */
+	/* Enforcer */
+	/* Fishman */
+	/* Hades */
+	/* Leech Mother */
+	/* Leech Pile */
+	/* Maw */
+	/* Meltedman */
+	/* Ogre */
+	/* Pyroclast */
+	/* Skin Dog */
+	/* Grey Skin Dog */
+	/* Alpha Cloaked Skin Dog */
+	/* White Skull Skin Dog */
+	/* One Eyed Skin Dog */
+	/* Limping Skin Dog */
+	/* Mangy Skin Dog */
+	/* Swarm */
+	/* Swarmer */
+	/* The Baby */
+	/* TMIR */
+	/* TMIR 2 */
+	/* Trullan */
+	/* Tumorman */
+	/* Vodnik */
+	/* Zombie Bear */
+	/* Zombie Dog */
+
+/************************ MONSTER SPRITES ************************/
+
+	/******* ABOMINATION *******/
+		item Abomination
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Abomination,
+				Icon			=	MonsterAbomination,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* ARTIFACT *******/
+		item Artifact
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Artifact,
+				Icon			=	MonsterArtifact,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* BEHEMOTH *******/
+		item Behemoth
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Behemoth,
+				Icon			=	MonsterBehemoth,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* BOLOTNIK *******/
+		item Bolotnik
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Bolotnik,
+				Icon			=	MonsterBolotnik,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* BOOMER *******/
+		item Boomer
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Boomer,
+				Icon			=	MonsterBoomer,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* CMF *******/
+		item CMF
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	CMF,
+				Icon			=	MonsterCMF,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* ENFORCER *******/
+		item Enforcer
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Enforcer,
+				Icon			=	MonsterEnforcer,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* FISHMAN *******/
+		item Fishman
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Fishman,
+				Icon			=	MonsterFishman,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* HADES *******/
+		item Hades
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Hades,
+				Icon			=	MonsterHades,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* LEECH MOTHER *******/
+		item LeechMother
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Leech Mother,
+				Icon			=	MonsterLeechMother,
+				Weight			=	1.0,
+			}
+
+	/******* LEECH PILE *******/
+		item LeechPile
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Leech Pile,
+				Icon			=	MonsterLeechPile,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* MANTIS *******/
+		item Mantis
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Mantis,
+				Icon			=	MonsterMantis,
+				ResizeWorldIcon = 	0.3,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* MAW *******/
+		item Maw
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Maw,
+				Icon			=	MonsterMaw,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* MELTEDMAN *******/
+		item Meltedman
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Meltedman,
+				Icon			=	MonsterMeltedman,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* OGRE *******/
+		item Ogre
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Ogre,
+				Icon			=	MonsterOgre,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* PYROCLAST *******/
+		item Pyroclast
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Pyroclast,
+				Icon			=	MonsterPyroclast,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* SKIN DOG *******/
+		item SkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Skin Dog,
+				Icon			=	MonsterSkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* GREY SKIN DOG *******/
+		item GreySkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Grey Skin Dog,
+				Icon			=	MonsterGreySkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* ALPHA CLOAKED SKIN DOG *******/
+		item AlphaCloakedSkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Naaldlooshii,
+				Icon			=	MonsterAlphaCloakedSkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* WHITE SKULL SKIN DOG *******/
+		item WhiteSkullSkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	White Skull Skin Dog,
+				Icon			=	MonsterWhiteSkullSkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* ONE EYED SKIN DOG *******/
+		item OneEyedSkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	One Eyed Skin Dog,
+				Icon			=	MonsterOneEyedSkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* LIMPING SKIN DOG *******/
+		item LimpingSkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Limping Skin Dog,
+				Icon			=	MonsterLimpingSkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* MANGY SKIN DOG *******/
+		item MangySkinDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Mangy Skin Dog,
+				Icon			=	MonsterMangySkinDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* SWARM *******/
+		item Swarm
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Swarm,
+				Icon			=	MonsterSwarm,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* SWARMER *******/
+		item Swarmer
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Swarmer,
+				Icon			=	MonsterSwarmer,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* THE BABY *******/
+		item TheBaby
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	The Baby,
+				Icon			=	MonsterTheBaby,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* THE MAN IN RED *******/
+		item TMIRM
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	The Man in Red,
+				Icon			=	MonsterTMIR,
+				Weight			=	1.0,
+			}
+
+		item TMIRM2
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	The Man in Red,
+				Icon			=	MonsterTMIR2,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* TRULLAN *******/
+		item Trullan
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Trullan,
+				Icon			=	MonsterTrullan,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* TUMORMAN *******/
+		item Tumorman
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Tumorman,
+				Icon			=	MonsterTumorman,
+				Weight			=	1.0,
+			}
+		
+/**********************************************************/
+
+	/******* VODNIK *******/
+		item Vodnik
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Vodnik,
+				Icon			=	MonsterVodnik,
+				Weight			=	1.0,
+			}
+	
+/**********************************************************/
+
+	/******* ZOMBIE DOG *******/
+		item ZombieDog
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Zombie Dog,
+				Icon			=	MonsterZombieDog,
+				Weight			=	1.0,
+			}
+
+/**********************************************************/
+
+	/******* ZOMBIE BEAR *******/
+		item ZombieBear
+			{
+				Type			=	Normal,
+				DisplayCategory	=	Monster,
+				DisplayName		=	Zombie Bear,
+				Icon			=	MonsterZombieBear,
+				Weight			=	1.0,
+			}
+}

@@ -1,0 +1,21 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+		
+/**********************************************************/
+
+	item MaxPoster
+		{
+			Type				=	Normal,
+			DisplayCategory		= 	Literature,
+			DisplayName			=	HAVE YOU SEEN THIS WOMAN?,
+			Icon				=	Paper,
+			Weight				=	0.0,
+			WorldStaticModel	=	PinnedPaper,
+		}
+}

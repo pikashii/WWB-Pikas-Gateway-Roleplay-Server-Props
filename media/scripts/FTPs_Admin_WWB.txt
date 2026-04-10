@@ -1,0 +1,414 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+		
+/************************ FAST TRAVEL POINT LIST ************************/
+/** hi this is a test **/
+
+	/* CANADA */
+		/* Hudson Bay Dockhouse */
+		/* The Installation */
+		/* USS Cyclops / Eldridge */
+		/* Lighthouse */
+		/* Coalition Port */
+		/* Miller Asylum */
+		/* Miller Asylum Basement */
+	
+	/* CELEPHAIS */
+		/* Celephais Starting Point */
+		/* Landing Zone 1 */
+		/* Landing Zone 2*/
+		/* Celephais Entrance */
+		/* Monorail Station Garage */
+		/* On-Rail Tram */
+		/* Crash Site */
+		/* Prison */
+		/* Utility Tunnels */
+		/* Solitary Confinement Block */
+		/* The Sprawl */
+		/* The Sprawl Heart */
+		/* The Vault */
+		/* The Core */
+		/* Destroyed Vault */
+		/* C130 */
+
+	/* PITTSFORD */
+		/* The Breach */
+		/* Tram Station */
+		/* Ranger Field Office */
+		/* Liberty District */
+		/* Fight Club */
+		/* Nazareth District */
+	
+/************************ CANADA FAST TRAVEL POINTS ************************/
+
+	/******* REGION SELECTION *******/
+		recipe Travel to Canada
+			{
+				AdminKey,
+				Result: AdminKey5,
+ 				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+		recipe Return to Main Menu
+			{
+				AdminKey5,
+				Result: AdminKey,
+ 				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+/**********************************************************/
+
+	/******* CANADA DESTINATIONS *******/
+		recipe Travel to Hudson Bay Dockhouse
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTDockhouse,
+			}
+
+		recipe Travel to The Installation
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTInstallation,
+			}
+
+		recipe Travel to USS Cyclops / Eldridge
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTUSS,
+			}
+
+		recipe Travel to Lighthouse
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTLighthouse,
+			}
+
+		recipe Travel to Coalition Port
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTPort,
+			}
+
+		recipe Travel to Miller Asylum
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTMiller,
+			}
+
+		recipe Travel to Miller Asylum Basement
+			{
+				AdminKey5,
+				Result: AdminKey5,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTMillerBasement,
+			}
+
+/************************ CELEPHAIS FAST TRAVEL POINTS ************************/
+
+	/******* REGION SELECTION *******/
+		recipe Travel to Celephais
+			{
+				AdminKey,
+				Result: AdminKey6,
+ 				Category:Admin,
+ 				IsHidden:true,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+		recipe Return to Main Menu
+			{
+				AdminKey6,
+				Result: AdminKey,
+ 				Category:Admin,
+ 				IsHidden:true,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+/**********************************************************/
+
+	/******* CELEPHAIS DESTINATIONS *******/
+
+		recipe Travel to Celephais Starting Point
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCStart,
+			}
+
+		recipe Travel to Landing Zone 1
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCLZ1,
+			}
+			
+		recipe Travel to Landing Zone 2
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCLZ2,
+			}
+
+		recipe Travel to Celephais Entrance
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCEnter,
+			}
+
+		recipe Travel to Monorail Station Garage
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCGarage,
+			}
+
+		recipe Travel to On-Rail Tram
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCTramRail,
+			}
+
+		recipe Travel to Crash Site
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCCrash,
+			}
+
+		recipe Travel to Prison
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCPrison,
+			}
+
+		recipe Travel to Utility Tunnels
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCUtility,
+			}
+
+		recipe Travel to Solitary Confinement Block
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCSolitary,
+			}
+
+		recipe Travel to The Sprawl
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCSprawl,
+			}
+
+		recipe Travel to The Sprawl Heart
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCSprawlHeart,
+			}
+
+		recipe Travel to The Vault
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCVault,
+			}
+
+		recipe Travel to The Core
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCCore,
+			}
+
+		recipe Travel to Destroyed Vault
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTCVaultD,
+			}
+
+		recipe Travel to Lockheed C-130 Hercules
+			{
+				AdminKey6,
+				Result: AdminKey6,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTC130,
+			}
+
+/************************ PITTSFORD FAST TRAVEL POINTS ************************/
+
+	/******* REGION SELECTION *******/
+		recipe Travel to Pittsford
+			{
+				AdminKey,
+				Result: AdminKey4,
+ 				Category:Admin,
+ 				IsHidden:true,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+		recipe Return to Main Menu
+			{
+				AdminKey4,
+				Result: AdminKey,
+ 				Category:Admin,
+ 				IsHidden:true,
+ 				IsHidden:true,
+				Time:0.0,
+			}
+
+/**********************************************************/
+
+	/******* PITTSFORD DESTINATIONS *******/
+		recipe Travel to The Breach
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTBreach,
+			}
+
+		recipe Travel to Tram Station
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTTram,
+			}
+
+		recipe Travel to Ranger Field Office
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTRFO,
+			}
+
+		recipe Travel to Liberty District
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTLiberty,
+			}
+
+		recipe Travel to Fight Club
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTFight,
+			}
+
+		recipe Travel to Nazareth District
+			{
+				AdminKey4,
+				Result: AdminKey4,
+				Category:Admin,
+ 				IsHidden:true,
+				Time:0.0,
+				OnCreate:AdminFTNazareth,
+			}
+}

@@ -1,0 +1,521 @@
+module PikaProps
+
+	{
+
+	imports
+		{
+			Base
+		}
+		
+/************************ FAST TRAVEL POINT LIST ************************/
+
+	/* CANADA */
+		/* USS Cyclops / Eldridge Lift (Up/Down) */
+		/* Miller Asylum Basement (Up/Down) */
+
+	/* CELEPHAIS */
+		/* Main Entrance (Enter/Exit) */
+		/* Prison Entrance (Enter/Exit) */
+		/* Utility Tunnels Entrance (Up/Down) */
+		/* Solitary Confinement Block Entrance (Up/Down) */
+		/* Sprawl Entrance (Up/Down) */
+		/* Clean Room Hall Lift (Up/Down) */
+		/* Observation Lab Control Center Lift (Up/Down) */
+		/* Vault Entrance (Up/Down) */
+		/* Vault Cargo Lift (Up/Down) */
+		/* Core Entrance (Enter/Exit) */
+		/* Core Lift (Up/Down) */
+		/* C130 (Enter/Exit) */
+
+	/* PITTSFORD */
+		/* Tram Station Access (Enter/Exit) */
+		/* Tram Station Sewer Access (Up/Down) */
+		/* RFO Sewer Access (Up/Down) */
+		/* Fight Club Access (Up/Down) */
+		/* Master Tram (All Districts) */
+
+	/* TEXAS */
+		/* Cellar Access (Enter/Exit) */
+
+	/* OTHER */
+		/* Ship Vents Access (Enter/Exit x2) */
+		/* Ship Access Doors (Enter/Exit x2) */
+	
+/************************ CANADA FAST TRAVEL POINTS ************************/
+
+	/******* USS CYCLOPS / ELDRIDGE LIFT *******/
+		item FTCyclops1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCyclops2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* MILLER ASYLUM BASEMENT *******/
+		item FTMiller1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTMiller2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/************************ CELEPHAIS FAST TRAVEL POINTS ************************/
+
+	/******* MAIN ENTRANCE *******/
+		item FTCEntrance1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Open Garage Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCEntrance2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Close Garage Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+			
+	/******* PRISON ENTRANCE *******/
+		item FTCPrison1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Open Shutter,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCPrison2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Close Shutter,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* UTILITY TUNNELS ENTRANCE *******/
+		item FTCUtility1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Utility Tunnels Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCUtility2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* SOLITARY CONFINEMENT BLOCK ENTRANCE *******/
+		item FTCSolitary1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCSolitary2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* SPRAWL ENTRANCE *******/
+		item FTCSprawl1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCSprawl2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* CLEAN ROOM HALL LIFT *******/
+		item FTCClean1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCClean2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+			
+/**********************************************************/
+
+	/******* OBSERVATION LAB CONTROL CENTER LIFT *******/
+		item FTCObs1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCObs2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* VAULT ENTRANCE *******/
+		item FTCVault1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCVault2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* VAULT CARGO LIFT *******/
+		item FTCCargo1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCCargo2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* CORE ENTRANCE *******/
+		item FTCCore1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Open Shutter,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCCore2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Close Shutter,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* CORE LIFT *******/
+		item FTCCoreLift1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCCoreLift2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Lift,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* C130 *******/
+		item FTC130
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Exit C130,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/************************ PITTSFORD FAST TRAVEL POINTS ************************/
+
+	/******* TRAM STATION ACCESS *******/
+		item FTTSAccess1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ride Escalator,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTTSAccess2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ride Escalator,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* TRAM STATION SEWERS ACCESS *******/
+		item FTTSSAccess1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Manhole,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTTSSAccess2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* RFO SEWERS ACCESS *******/
+		item FTRFOSAccess1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Manhole,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTRFOSAccess2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* FIGHT CLUB ACCESS *******/
+		item FTFCAccess1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTFCAccess2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/**********************************************************/
+
+	/******* MASTER TRAM *******/
+		item FTTram
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Board Tram,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/************************ TEXAS FAST TRAVEL POINTS ************************/
+
+	/******* CELLAR ACCESS *******/
+		item FTCellarAccess1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTCellarAccess2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ladder,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+/************************ OTHER FAST TRAVEL POINTS ************************/
+
+	/******* SHIP VENTS ACCESS *******/
+		item FTDSVents1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Vent Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSVents2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Vent Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSVents3
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Vent Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSVents4
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Vent Hatch,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+	/******* SHIP ACCESS DOORS *******/
+		item FTDSShip1
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ship Access Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSShip2
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ship Access Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSShip3
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ship Access Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+
+		item FTDSShip4
+			{
+				Weight				=	0.0,
+				Type				=	Normal,
+				DisplayCategory		= 	FastTravelPoint,
+				DisplayName			=	Ship Access Door,
+				Icon				=	SpecialFastTravelPoint,
+			}
+}
