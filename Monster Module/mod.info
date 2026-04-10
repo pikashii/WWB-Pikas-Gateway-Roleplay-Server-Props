@@ -1,0 +1,5 @@
+name=[WWB] Monster Module
+id=PikasGatewayPropsWWB-Monster
+authors=Pika
+description=Monster collectible sprites for What We Become Part II.
+require=PikasGatewayPropsWWB

@@ -4,3 +4,4 @@ authors=Pika
 icon=icon.png
 description=all of our assets from what we become part ii: what remains archived in one convenient mod!
 poster=poster.png
+require=PikasGatewayProps

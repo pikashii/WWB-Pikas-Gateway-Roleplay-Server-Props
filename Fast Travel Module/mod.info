@@ -1,0 +1,5 @@
+name=[WWB] Fast Travel Module
+id=PikasGatewayPropsWWB-FTP
+authors=Pika
+description=Fast travel points and admin teleport system for What We Become Part II.
+require=PikasGatewayPropsWWB

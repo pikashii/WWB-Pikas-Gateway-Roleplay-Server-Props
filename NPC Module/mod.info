@@ -1,0 +1,5 @@
+name=[WWB] NPC Module
+id=PikasGatewayPropsWWB-NPC
+authors=Pika
+description=NPC props, corpses, and examine UI for What We Become Part II.
+require=PikasGatewayPropsWWB

@@ -4,7 +4,7 @@ UI_EN = {
 
 	UI_Image_Abraham = "<IMAGECENTRE:media/ui/Abraham.png>"
 	UI_Text_Abraham = "<CENTRE>Abraham's Appearance"
-	
+
 	UI_Image_Aiden = "<IMAGECENTRE:media/ui/Aiden.png>"
 	UI_Text_Aiden = "<CENTRE>Aiden Ward's Appearance"
 
@@ -13,10 +13,10 @@ UI_EN = {
 
 	UI_Image_Ben = "<IMAGECENTRE:media/ui/Ben.png>"
 	UI_Text_Ben = "<CENTRE>Ben's Appearance"
-	
+
 	UI_Image_Blackwell = "<IMAGECENTRE:media/ui/Blackwell.png>"
 	UI_Text_Blackwell = "<CENTRE>Thomas Blackwell's Appearance"
-	
+
 	UI_Image_Carl = "<IMAGECENTRE:media/ui/Carl.png>"
 	UI_Text_Carl = "<CENTRE>Carl Miller's Appearance"
 
@@ -37,7 +37,7 @@ UI_EN = {
 
 	UI_Image_Dani = "<IMAGECENTRE:media/ui/Dani.png>"
 	UI_Text_Dani = "<CENTRE>Danielle Stenton's Appearance"
-	
+
 	UI_Image_Darren = "<IMAGECENTRE:media/ui/Darren.png>"
 	UI_Text_Darren = "<CENTRE>Darren McKidd's Appearance"
 
@@ -49,7 +49,7 @@ UI_EN = {
 
 	UI_Image_Demi = "<IMAGECENTRE:media/ui/Demi.png>"
 	UI_Text_Demi = "<CENTRE>Demi McIntosh's Appearance"
-	
+
 	UI_Image_Don = "<IMAGECENTRE:media/ui/Don.png>"
 	UI_Text_Don = "<CENTRE>Don Jones' Appearance"
 
@@ -88,7 +88,7 @@ UI_EN = {
 
 	UI_Image_Jack = "<IMAGECENTRE:media/ui/Jack.png>"
 	UI_Text_Jack = "<CENTRE>Jack Bevis' Appearance"
-	
+
 	UI_Image_Jared = "<IMAGECENTRE:media/ui/Jared.png>"
 	UI_Text_Jared = "<CENTRE>Jared Vaugerson's Appearance"
 
@@ -146,17 +146,17 @@ UI_EN = {
 	UI_Image_Nathan = "<IMAGECENTRE:media/ui/Nathan.png>"
 	UI_Text_Nathan = "<CENTRE>Nathan Coleman's Appearance"
 
-	UI_Image_Nathan = "<IMAGECENTRE:media/ui/Rachel.png>"
-	UI_Text_Nathan = "<CENTRE>Rachel Bevis' Appearance"
+	UI_Image_Rachel = "<IMAGECENTRE:media/ui/Rachel.png>"
+	UI_Text_Rachel = "<CENTRE>Rachel Bevis' Appearance"
 
 	UI_Image_Rhea = "<IMAGECENTRE:media/ui/Rhea.png>"
 	UI_Text_Rhea = "<CENTRE>Rhea Varnado's Appearance"
-	
+
 	UI_Image_Robert = "<IMAGECENTRE:media/ui/Robert.png>"
 	UI_Text_Robert = "<CENTRE>Robert's Appearance"
 
-	UI_Image_Robert = "<IMAGECENTRE:media/ui/Sam.png>"
-	UI_Text_Robert = "<CENTRE>Sam's Appearance"
+	UI_Image_Sam = "<IMAGECENTRE:media/ui/Sam.png>"
+	UI_Text_Sam = "<CENTRE>Sam's Appearance"
 
 	UI_Image_Sharon = "<IMAGECENTRE:media/ui/Sharon.png>"
 	UI_Text_Sharon = "<CENTRE>Sharon Kravtiz's Appearance"
@@ -187,7 +187,7 @@ UI_EN = {
 
 	UI_Image_Wendy = "<IMAGECENTRE:media/ui/Wendy.png>"
 	UI_Text_Wendy = "<CENTRE>Wendy Kang's Appearance"
-	
+
 	UI_Image_Will = "<IMAGECENTRE:media/ui/Will.png>"
 	UI_Text_Will = "<CENTRE>Will Fisher's Appearance"
 
