@@ -4,7 +4,7 @@
 --**          teleportPlayers() by Shurutsue              **--
 --**********************************************************--
 
-local TeleportUtil = require "PikaTeleportUtil"
+local TeleportUtil = require "PikaProps_Teleport"
 
 TeleportUtil.registerLocations({
 
